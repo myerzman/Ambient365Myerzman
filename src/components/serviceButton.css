@@ -1,0 +1,15 @@
+.serviceButton {
+	/* flex-basis: 260px; */
+	border: 0px;
+	text-align: left;
+	padding: 20px;
+}
+
+.serviceButton p {
+	font-size: 1rem;
+	color: rgb(79, 79, 79);
+}
+
+.serviceButton h2 {
+	letter-spacing: unset;
+}

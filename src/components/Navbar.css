@@ -1,0 +1,9 @@
+.nav {
+	height: 100px;
+}
+
+.nav-center {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
