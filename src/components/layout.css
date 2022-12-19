@@ -484,6 +484,10 @@ h2.lowerHeading {
 	z-index: 11;
 }
 
+.slide .col p {
+	display: inline-block;
+}
+
 #home-container .darkness {
 	background-color: rgba(0, 0, 0, 0.4);
 	position: absolute;
