@@ -7,16 +7,19 @@ import ScheduleButton from "../../components/schedulebutton";
 import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-import { GiFist } from "react-icons/Gi";
-import { BiGlasses } from "react-icons/Bi";
-import { BiDonateHeart } from "react-icons/Bi";
-import { FaRegHandshake } from "react-icons/Fa";
-import { BiHomeHeart } from "react-icons/Bi";
+
 // import "../main.css";
 
 // modals
 import CommunicationsModal from "./CommunicationsModal";
 import { ModalProvider } from "react-modal-hook";
+
+//Icons
+import empowering from "../../images/empowering.png";
+import servanthearted from "../../images/servanthearted.png";
+import responsible from "../../images/responsible.png";
+import committed from "../../images/committed.png";
+import aspirational from "../../images/aspirational.png";
 
 const communicationsmanagement = () => {
 	return (
@@ -52,24 +55,49 @@ const communicationsmanagement = () => {
 			<h1>Ambient's core values for your enterprise needs</h1>
 			<div className="icon-wrapper">
 				<div className="reacticon">
-					<FaRegHandshake size={70} />{" "}
-					<span className="caption"> Committed </span>
+					<img
+						src={committed}
+						alt="Committed"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">Committed</span>
 				</div>
 				<div className="reacticon">
-					<BiGlasses size={70} />{" "}
-					<span className="caption"> Aspirational </span>
+					<img
+						src={aspirational}
+						alt="Aspirational"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">Aspirational</span>
 				</div>
 				<div className="reacticon">
-					<BiDonateHeart size={70} />{" "}
-					<span className="caption">Responsible </span>
+					<img
+						src={responsible}
+						alt="Responsible"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">Responsible</span>
 				</div>
 				<div className="reacticon">
-					<GiFist size={70} />{" "}
-					<span className="caption"> Empowering</span>
+					<img
+						src={empowering}
+						alt="empowering"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">empowering</span>
 				</div>
 				<div className="reacticon">
-					<BiHomeHeart size={70} />{" "}
-					<span className="caption">Servant-hearted</span>{" "}
+					<img
+						src={servanthearted}
+						alt="Servant-hearted"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">Servant-hearted</span>
 				</div>
 			</div>
 

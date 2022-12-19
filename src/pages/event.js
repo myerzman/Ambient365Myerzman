@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
+
+import "./event.css";
 
 export const pageQuery = graphql`
 	query {
@@ -9,6 +11,9 @@ export const pageQuery = graphql`
 				node {
 					title
 					content
+					excerpt
+					slug
+					customDate: date(formatString: "MMMM mm, yyyy")
 				}
 			}
 		}
@@ -20,16 +25,26 @@ const event = ({ data }) => {
 	return (
 		<Layout>
 			<>
-				{" "}
-				{data.allWpPost.edges.map(({ node }) => (
-					<div className="eventWrapper">
-						<h1>{node.title}</h1>
-						<div
-							dangerouslySetInnerHTML={{ __html: node.content }}
-							className="fullPageBg"
-						/>
-					</div>
-				))}
+				<h2 className="grayheading">Our Events</h2>
+				<div className="events">
+					{" "}
+					{data.allWpPost.edges.map(({ node }) => {
+						return (
+							<div className="eventWrapper" key={node.slug}>
+								<h2>{node.title}</h2>
+								<div className="date">{node.customDate}</div>
+								<div
+									dangerouslySetInnerHTML={{
+										__html: node.excerpt,
+									}}
+								/>
+								<Link to={`../${node.slug}`}>
+									<button>Read more</button>
+								</Link>
+							</div>
+						);
+					})}
+				</div>
 			</>
 		</Layout>
 	);

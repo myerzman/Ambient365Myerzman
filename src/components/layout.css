@@ -250,6 +250,7 @@ hr {
 }
 
 h2.grayHeading,
+h1.grayheading,
 .container-center h2 {
 	font-size: 3rem;
 	text-align: center;
@@ -270,6 +271,10 @@ h2.grayHeading,
 	box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.515);
 	/* box-shadow: 5px 10px 5px var(--primary-red); */
 	/* border: 1px solid var(--primary-red); */
+}
+
+h1.grayheading {
+	font-size: 2rem;
 }
 
 h2.lowerHeading {
@@ -424,7 +429,7 @@ h2.lowerHeading {
 .fullPageBg iframe {
 	max-width: 100%;
 }
-.eventWrapper h1 {
+/* .eventWrapper h1 {
 	color: #fff;
 	background: var(--primary-green);
 	background: #666;
@@ -432,10 +437,10 @@ h2.lowerHeading {
 	display: inline-block;
 	padding: 7px 10px;
 	border-radius: 8px;
-	/* box-shadow: 10px 5px 5px rgb(0 0 0 / 52%); */
+
 	box-shadow: 10px 5px 5px var(--primary-green);
 	box-shadow: 3px 2px 1px var(--primary-green);
-}
+} */
 
 .teamWrapper {
 }

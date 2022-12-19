@@ -19,28 +19,27 @@ export default function HomeCarousel() {
 	return (
 		<>
 			<Carousel
-				autoPlay={true}
+				autoPlay={false}
 				infiniteLoop={true}
 				centerMode={false}
 				// renderThumbs={false}
 				showArrows={false}
 				showStatus={false}
 				showThumbs={false}
-				interval={4000}
+				interval={8000}
 			>
 				<div>
 					<div className="slider-content">
 						<h1>Welcome to Ambient 365</h1>
 						<p>
-							Microsoft Power Platform is a line of business
-							intelligence, app development, and app connectivity
-							software applications. Microsoft Power Platform
-							benefits for your organization include all
-							Enterprise Business Processes in a Single Platform.
-							Self-Service for easy adoption and use, streamlines
-							processes and improves productivity, facilitates
-							remote work and Collaboration.
+							Ambient365 is a Microsoft Practice primary focus.
+							Focused on the customer journey, Ambient365 inspires
+							the customer/employee experience while streamlining
+							business processes, providing time to value.
 						</p>
+						<Link to="/about" className="scheduleButton">
+							<ScheduleButton>Learn About Us</ScheduleButton>
+						</Link>
 					</div>
 					<div className="darkness"></div>
 					<img src={Hero2} alt="OurStory" />

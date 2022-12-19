@@ -4,9 +4,17 @@ import ReactModal from "react-modal";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import MainButton from "../../components/mainbutton";
-import { IoMdClose } from "react-icons/Io";
+
+import Close from "../../images/close.png";
 
 // images
+import microsoft from "../../images/microsoft.png";
+import Logo from "../../images/ambient-logo-trans.png";
+import contents from "../../images/contents.png";
+import employeeexperience from "../../images/employeeexperience.png";
+import line from "../../images/line.png";
+import search from "../../images/search.png";
+import governance from "../../images/governance.png";
 import Intranet from "../../images/intranet.png";
 
 //styles
@@ -41,21 +49,46 @@ export default function TechnologyModal() {
 	return (
 		<>
 			<div className="tile-wrapper">
-				<MainButton setItem={setSelectedItem} itemNumber={0}>
+				<MainButton
+					// onClick={() => setSelectedItem(0)}
+					setItem={setSelectedItem}
+					itemNumber={0}
+					description="Better Communication Platform for Employees"
+					image={microsoft}
+				>
 					M365 Readiness
 				</MainButton>
-				<MainButton setItem={setSelectedItem} itemNumber={1}>
-					<span className="small">
-						Content Management & Migrations
-					</span>
+				<MainButton
+					setItem={setSelectedItem}
+					itemNumber={1}
+					description="Happy Employees = Better Workplace"
+					image={contents}
+				>
+					Content Management & Migrations
 				</MainButton>
-				<MainButton setItem={setSelectedItem} itemNumber={2}>
+				<MainButton
+					// onClick={() => setSelectedItem(0)}
+					setItem={setSelectedItem}
+					itemNumber={2}
+					description="Better Communication Platform for Employees"
+					image={line}
+				>
 					LOB Application Integration
 				</MainButton>
-				<MainButton setItem={setSelectedItem} itemNumber={3}>
+				<MainButton
+					setItem={setSelectedItem}
+					itemNumber={3}
+					description="Happy Employees = Better Workplace"
+					image={search}
+				>
 					Search Strategy
 				</MainButton>
-				<MainButton setItem={setSelectedItem} itemNumber={4}>
+				<MainButton
+					setItem={setSelectedItem}
+					itemNumber={4}
+					description="Happy Employees = Better Workplace"
+					image={governance}
+				>
 					Governance
 				</MainButton>
 			</div>
@@ -68,7 +101,7 @@ export default function TechnologyModal() {
 					className="closeButton"
 					onClick={() => setShowModal(false)}
 				>
-					<IoMdClose />
+					<img src={Close} alt="CloseButton" />
 				</button>
 				{/* <h3>Key Offerings</h3> */}
 

@@ -77,6 +77,11 @@
 
 @media (max-width: 1200px) {
 	.carousel p {
-		display: inline-block;
+		/* display: inline-block; */
 	}
+}
+
+.scheduleButton button {
+	position: relative;
+	z-index: 999999;
 }

@@ -8,31 +8,31 @@ import ScheduleButton from "../../components/schedulebutton";
 import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-import { GiFist } from "react-icons/Gi";
-import { BiGlasses } from "react-icons/Bi";
-import { BiDonateHeart } from "react-icons/Bi";
-import { FaRegHandshake } from "react-icons/Fa";
-import { BiHomeHeart } from "react-icons/Bi";
 // import "../main.css";
 
 // Modal
 import BusinessModal from "./BusinessModal";
 import { ModalProvider } from "react-modal-hook";
 
+//Icons
+import empowering from "../../images/empowering.png";
+import servanthearted from "../../images/servanthearted.png";
+import responsible from "../../images/responsible.png";
+import committed from "../../images/committed.png";
+import aspirational from "../../images/aspirational.png";
+
 const businessprocessmanagement = () => {
 	return (
 		<Layout pageName="Business Process Management">
-			{/* <h1>Business Process Management</h1>
-			<h3> Description about Business Process Management</h3> */}
 			<div className="white">
-				<p>
-					At Ambient365 we understand the driving force of any
-					business is its people.Our mentoring and best practices
-					approach to people, process, and technology allows an
-					organization to see their investment in a digital platform
-					that helps organizations create a thriving culture within an
-					employee experience platform.
+				{/*<h1>Business Prodcess Management</h1>*/}
+				<div className="multiParagraph">
+					<h2>Enhancing Functionality of Your Technologies</h2>
+					<h3>Better Strategy for Best Execution</h3>
+					<p>
+					Business process management (BPM) is a structured approach to improving the processes organizations use to get work done and generate business value. When properly executed, BPM has the ability to enhance efficiency and productivity, reduce costs, and minimize errors and risk – thereby optimizing the employee experience. Ambient365 looks at BMP as an opportunity of continuous improvement for employee engagement and efficiencies.
 				</p>
+				</div>
 			</div>
 			<div className="darkText">
 				<h4>How We Can Help</h4>
@@ -49,33 +49,26 @@ const businessprocessmanagement = () => {
 
 			<h1>Ambient's core values for your enterprise needs</h1>
 			<div className="icon-wrapper">
-				<div className="reacticon">
-					<FaRegHandshake size={70} />{" "}
-					<span className="caption"> Committed </span>
+				<div className="reacticon"> 
+				<img src={committed} alt="Committed" width={70} height={70}/> 
+				<span className="caption">Committed</span>
 				</div>
-				<div className="reacticon">
-					<BiGlasses size={70} />{" "}
-					<span className="caption"> Aspirational </span>
+				<div className="reacticon"> 
+				<img src={aspirational} alt="Aspirational" width={70} height={70}/> 
+				<span className="caption">Aspirational</span>
 				</div>
-				<div className="reacticon">
-					<BiDonateHeart size={70} />{" "}
-					<span className="caption">Responsible </span>
+				<div className="reacticon"> 
+				<img src={responsible} alt="Responsible" width={70} height={70}/> 
+				<span className="caption">Responsible</span>
 				</div>
-				<div className="reacticon">
-					<GiFist size={70} />{" "}
-					<span className="caption"> Empowering</span>
+				<div className="reacticon"> 
+				<img src={empowering} alt="empowering" width={70} height={70}/> 
+				<span className="caption">empowering</span>
 				</div>
-				<div className="reacticon">
-					<BiHomeHeart size={70} />{" "}
-					<span className="caption">Servant-hearted</span>
+				<div className="reacticon"> 
+				<img src={servanthearted} alt="Servant-hearted" width={70} height={70}/> 
+				<span className="caption">Servant-hearted</span>
 				</div>
-				<h2 className="lowerHeading">
-					{" "}
-					Meet Our Ambient Consultants!{" "}
-				</h2>
-				<Link to="https://meetings.hubspot.com/drotolo">
-					<ScheduleButton> Schedule a Meeting </ScheduleButton>
-				</Link>
 			</div>
 
 			<Container>

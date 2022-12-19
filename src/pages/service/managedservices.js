@@ -8,27 +8,28 @@ import ScheduleButton from "../../components/schedulebutton";
 import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-import { GiFist } from "react-icons/Gi";
-import { BiGlasses } from "react-icons/Bi";
-import { BiDonateHeart } from "react-icons/Bi";
-import { FaRegHandshake } from "react-icons/Fa";
-import { BiHomeHeart } from "react-icons/Bi";
 // import "../main.css";
+
+//Icons
+import empowering from "../../images/empowering.png";
+import servanthearted from "../../images/servanthearted.png";
+import responsible from "../../images/responsible.png";
+import committed from "../../images/committed.png";
+import aspirational from "../../images/aspirational.png";
 
 const managedservices = () => {
 	return (
 		<Layout pageName="Managed Services">
 			<div className="white">
-				{/* <h1>Managed Services</h1>
-				<h3> Description about Managed Services</h3> */}
-				<p>
-					At Ambient365 we understand the driving force of any
-					business is its people. Our mentoring and best practices
-					approach to people, process, and technology allows an
-					organization to see their investment in a digital platform
-					that helps organizations create a thriving culture within an
-					employee experience platform.{" "}
+				{/* <h1>Managed Services</h1> */}
+				<div className="multiParagraph">
+					<h2>Alleviating Cumbersome Issues</h2>
+					<h3> All-in-One Solution for IT Environment </h3>
+					<p>
+					Managed services is about leveraging outside expertise to eliminate the need for expensive in-house IT resources. Let the specialists handle your IT services and focus your efforts on areas that add value to your business. At Ambient365, we offer Managed Services in cloud productivity and hosting, software development and operations (DevOps) as well as business intelligence and data analytics.{" "}
 				</p>
+				</div>
+				
 			</div>
 			<div className="darkText">
 				<h4>How We Can Help</h4>
@@ -78,25 +79,25 @@ const managedservices = () => {
 
 			<h1>Ambient's core values for your enterprise needs</h1>
 			<div className="icon-wrapper">
-				<div className="reacticon">
-					<FaRegHandshake size={70} />{" "}
-					<span className="caption"> Committed </span>
+				<div className="reacticon"> 
+				<img src={committed} alt="Committed" width={70} height={70}/> 
+				<span className="caption">Committed</span>
 				</div>
-				<div className="reacticon">
-					<BiGlasses size={70} />{" "}
-					<span className="caption"> Aspirational </span>
+				<div className="reacticon"> 
+				<img src={aspirational} alt="Aspirational" width={70} height={70}/> 
+				<span className="caption">Aspirational</span>
 				</div>
-				<div className="reacticon">
-					<BiDonateHeart size={70} />{" "}
-					<span className="caption">Responsible </span>
+				<div className="reacticon"> 
+				<img src={responsible} alt="Responsible" width={70} height={70}/> 
+				<span className="caption">Responsible</span>
 				</div>
-				<div className="reacticon">
-					<GiFist size={70} />{" "}
-					<span className="caption"> Empowering</span>
+				<div className="reacticon"> 
+				<img src={empowering} alt="empowering" width={70} height={70}/> 
+				<span className="caption">empowering</span>
 				</div>
-				<div className="reacticon">
-					<BiHomeHeart size={70} />{" "}
-					<span className="caption">Servant-hearted</span>{" "}
+				<div className="reacticon"> 
+				<img src={servanthearted} alt="Servant-hearted" width={70} height={70}/> 
+				<span className="caption">Servant-hearted</span>
 				</div>
 			</div>
 

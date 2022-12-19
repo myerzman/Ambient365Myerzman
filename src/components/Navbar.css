@@ -7,3 +7,10 @@
 	margin-right: auto;
 	height: 100%;
 }
+
+body .nav-btn img {
+	width: auto;
+	height: auto;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}

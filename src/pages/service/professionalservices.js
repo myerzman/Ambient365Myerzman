@@ -8,29 +8,30 @@ import ScheduleButton from "../../components/schedulebutton";
 import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-import { GiFist } from "react-icons/Gi";
-import { BiGlasses } from "react-icons/Bi";
-import { BiDonateHeart } from "react-icons/Bi";
-import { FaRegHandshake } from "react-icons/Fa";
-import { BiHomeHeart } from "react-icons/Bi";
+
 // import "../main.css";
 
 // Modal
 import ProfessionalModal from "./ProfessionalModal";
 import { ModalProvider } from "react-modal-hook";
 
+//Icons
+import empowering from "../../images/empowering.png";
+import servanthearted from "../../images/servanthearted.png";
+import responsible from "../../images/responsible.png";
+import committed from "../../images/committed.png";
+import aspirational from "../../images/aspirational.png";
+
 const professionalservices = () => {
 	return (
 		<Layout pageName="Professional Services">
 			<div className="white">
-				<p>
-					At Ambient365 we understand the driving force of any
-					business is its people. Our mentoring and best practices
-					approach to people, process, and technology allows an
-					organization to see their investment in a digital platform
-					that helps organizations create a thriving culture within an
-					employee experience platform.{" "}
-				</p>
+				{/*<h1>Professional Services</h1>*/}
+				<div className="multiParagraph">
+					<h2>blah</h2>
+					<h3>blah blah</h3>
+					<p>blah</p>
+				</div>
 			</div>
 			<div className="darkText">
 				<h4>How We Can Help</h4>
@@ -48,24 +49,49 @@ const professionalservices = () => {
 			<h1>Ambient's core values for your enterprise needs</h1>
 			<div className="icon-wrapper">
 				<div className="reacticon">
-					<FaRegHandshake size={70} />{" "}
-					<span className="caption"> Committed </span>
+					<img
+						src={committed}
+						alt="Committed"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">Committed</span>
 				</div>
 				<div className="reacticon">
-					<BiGlasses size={70} />{" "}
-					<span className="caption"> Aspirational </span>
+					<img
+						src={aspirational}
+						alt="Aspirational"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">Aspirational</span>
 				</div>
 				<div className="reacticon">
-					<BiDonateHeart size={70} />{" "}
-					<span className="caption">Responsible </span>
+					<img
+						src={responsible}
+						alt="Responsible"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">Responsible</span>
 				</div>
 				<div className="reacticon">
-					<GiFist size={70} />{" "}
-					<span className="caption"> Empowering</span>
+					<img
+						src={empowering}
+						alt="empowering"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">empowering</span>
 				</div>
 				<div className="reacticon">
-					<BiHomeHeart size={70} />{" "}
-					<span className="caption">Servant-hearted</span>{" "}
+					<img
+						src={servanthearted}
+						alt="Servant-hearted"
+						width={70}
+						height={70}
+					/>
+					<span className="caption">Servant-hearted</span>
 				</div>
 			</div>
 

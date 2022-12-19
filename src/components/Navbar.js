@@ -1,9 +1,12 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "gatsby";
-import { FiAlignJustify } from "react-icons/fi";
+
 import "./Navbar.css";
+
+// images
 import ambient365 from "../images/ambient365.png";
+import Menu from "../images/menu.png";
 
 const Navbar = () => {
 	const [show, setShow] = useState(false);
@@ -16,7 +19,7 @@ const Navbar = () => {
 						<img src={ambient365} alt="ambient365" />{" "}
 					</Link>
 					<button className="nav-btn" onClick={() => setShow(!show)}>
-						<FiAlignJustify />
+						<img src={Menu} alt="menuButton" />
 					</button>
 				</div>
 				<div className={show ? "nav-links show-links" : "nav-links"}>

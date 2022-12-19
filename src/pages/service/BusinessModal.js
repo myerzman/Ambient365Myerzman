@@ -7,9 +7,16 @@ import MainButton from "../../components/mainbutton";
 
 // images
 import Intranet from "../../images/intranet.png";
+import Logo from "../../images/ambient-logo-trans.png";
+import lifecycle from "../../images/lifecycle.png";
+import criticalbusinessprocess from "../../images/criticalbusinessprocess.png";
+import customapplication from "../../images/customapplication.png";
+import powerplatform from "../../images/powerplatform.png";
+import centerofexcellence from "../../images/centerofexcellence.png";
 
 //styles
 import "../../components/Modal.css";
+import businessprocessmanagement from "./businessprocessmanagement";
 
 export default function BusinessModal() {
 	// const [modalState, setModalState] = useState("test");
@@ -40,19 +47,49 @@ export default function BusinessModal() {
 	return (
 		<>
 			<div className="tile-wrapper">
-				<MainButton onClick={() => setSelectedItem(0)}>
+				<MainButton
+					// onClick={() => setSelectedItem(0)}
+					setItem={setSelectedItem}
+					itemNumber={0}
+					description="We develop your website! Contact us for a quote."
+					image={powerplatform}
+				>
 					Power Platform
 				</MainButton>
-				<MainButton onClick={() => setSelectedItem(1)}>
+				<MainButton
+					// onClick={() => setSelectedItem(0)}
+					setItem={setSelectedItem}
+					itemNumber={1}
+					description="We develop your website! Contact us for a quote."
+					image={centerofexcellence}
+				>
 					Center of Excellence
 				</MainButton>
-				<MainButton onClick={() => setSelectedItem(2)}>
+				<MainButton
+					// onClick={() => setSelectedItem(0)}
+					setItem={setSelectedItem}
+					itemNumber={2}
+					description="We develop your website! Contact us for a quote."
+					image={lifecycle}
+				>
 					Lifecycle Management
 				</MainButton>
-				<MainButton onClick={() => setSelectedItem(3)}>
-					<span className="small">Critical Business Processes</span>
+				<MainButton
+					// onClick={() => setSelectedItem(0)}
+					setItem={setSelectedItem}
+					itemNumber={3}
+					description="We develop your website! Contact us for a quote."
+					image={criticalbusinessprocess}
+					>
+					Critical Business Processes
 				</MainButton>
-				<MainButton onClick={() => setSelectedItem(4)}>
+				<MainButton
+					// onClick={() => setSelectedItem(0)}
+					setItem={setSelectedItem}
+					itemNumber={4}
+					description="We develop your website! Contact us for a quote."
+					image={customapplication}
+				>
 					Custom Applications
 				</MainButton>
 			</div>

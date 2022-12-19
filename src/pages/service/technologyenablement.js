@@ -8,31 +8,32 @@ import ScheduleButton from "../../components/schedulebutton";
 import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-import { GiFist } from "react-icons/Gi";
-import { BiGlasses } from "react-icons/Bi";
-import { BiDonateHeart } from "react-icons/Bi";
-import { FaRegHandshake } from "react-icons/Fa";
-import { BiHomeHeart } from "react-icons/Bi";
 // import "../main.css";
 
 // Modal
 import { ModalProvider } from "react-modal-hook";
 import TechnologyModal from "./TechnologyModal";
 
+//Icons
+import empowering from "../../images/empowering.png";
+import servanthearted from "../../images/servanthearted.png";
+import responsible from "../../images/responsible.png";
+import committed from "../../images/committed.png";
+import aspirational from "../../images/aspirational.png";
+
 const technologyenablement = () => {
 	return (
 		<Layout pageName="Technology Enablement">
 			<div className="white">
-				{/* <h1>Technology Enablement</h1>
-				<h3> Description about Technology Enablement</h3> */}
-				<p>
-					At Ambient365 we understand the driving force of any
-					business is its people. Our mentoring and best practices
-					approach to people, process, and technology allows an
-					organization to see their investment in a digital platform
-					that helps organizations create a thriving culture within an
-					employee experience platform.{" "}
+				{/* <h1>Technology Enablement</h1> */}
+				<div className="multiParagraph">
+					<h2>Enabling Employee Success</h2>
+					<h3>Next Level Technology for Your Employees</h3>
+					<p>Technology Enablement is about equipping businesses with current and cutting-edge technologies that improve employee engagement and process efficiencies. Technology should not be an inhibitor to business productivity if solutioned, implemented and communicated correctly. </p>
+				<p> Ambient365 has been successful in guiding and transitioning its clients a technology transformation. Whether it be for a custom corporate intranet, content management solution with custom integrations to external business applications, or a collaboration space to digitize workflows and processes, Ambient365 has been successfully enabling companies to succeed.
+{" "}
 				</p>
+				</div>
 			</div>
 			<div className="darkText">
 				<h4>How We Can Help</h4>
@@ -49,25 +50,25 @@ const technologyenablement = () => {
 
 			<h1>Ambient's core values for your enterprise needs</h1>
 			<div className="icon-wrapper">
-				<div className="reacticon">
-					<FaRegHandshake size={70} />{" "}
-					<span className="caption"> Committed </span>
+				<div className="reacticon"> 
+				<img src={committed} alt="Committed" width={70} height={70}/> 
+				<span className="caption">Committed</span>
 				</div>
-				<div className="reacticon">
-					<BiGlasses size={70} />{" "}
-					<span className="caption"> Aspirational </span>
+				<div className="reacticon"> 
+				<img src={aspirational} alt="Aspirational" width={70} height={70}/> 
+				<span className="caption">Aspirational</span>
 				</div>
-				<div className="reacticon">
-					<BiDonateHeart size={70} />{" "}
-					<span className="caption">Responsible </span>
+				<div className="reacticon"> 
+				<img src={responsible} alt="Responsible" width={70} height={70}/> 
+				<span className="caption">Responsible</span>
 				</div>
-				<div className="reacticon">
-					<GiFist size={70} />{" "}
-					<span className="caption"> Empowering</span>
+				<div className="reacticon"> 
+				<img src={empowering} alt="empowering" width={70} height={70}/> 
+				<span className="caption">empowering</span>
 				</div>
-				<div className="reacticon">
-					<BiHomeHeart size={70} />{" "}
-					<span className="caption">Servant-hearted</span>{" "}
+				<div className="reacticon"> 
+				<img src={servanthearted} alt="Servant-hearted" width={70} height={70}/> 
+				<span className="caption">Servant-hearted</span>
 				</div>
 			</div>
 

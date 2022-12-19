@@ -14,7 +14,7 @@ export default function mainbutton(props) {
 			onClick={() => props.setItem(props.itemNumber)}
 		>
 			<div class="imgBx">
-				<img src={Logo} alt="Ambient365" />
+				<img src={props.image ? props.image : Logo} alt="Ambient365" />
 			</div>
 
 			<div class="contentBx">

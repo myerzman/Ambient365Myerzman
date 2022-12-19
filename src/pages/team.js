@@ -24,10 +24,7 @@ const team = ({ data }) => {
 	console.log("data team", data.allWpTeammember.nodes);
 	return (
 		<Layout pageName="Our Team">
-			<h1 className="colorbackgroundfont">
-				{" "}
-				Hello! Learn about our Team{" "}
-			</h1>
+			<h1 className="colorbackgroundfont">Meet the Team</h1>
 			<div className="teamWrapper">
 				{data.allWpTeammember.nodes
 					.sort((a, b) =>

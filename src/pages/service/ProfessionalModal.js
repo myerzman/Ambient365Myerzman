@@ -4,10 +4,16 @@ import ReactModal from "react-modal";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import MainButton from "../../components/mainbutton";
-import { IoMdClose } from "react-icons/Io";
+
+import Close from "../../images/close.png";
 
 // images
 import Intranet from "../../images/intranet.png";
+import analysis from "../../images/analysis.png";
+import design from "../../images/design.png";
+import mentoring from "../../images/mentoring.png";
+import project from "../../images/project.png";
+import assessment from "../../images/assessment.png";
 
 //styles
 import "../../components/Modal.css";
@@ -43,37 +49,48 @@ export default function ProfessionalModal() {
 			<div className="tile-wrapper">
 				{" "}
 				<MainButton
+					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={0}
-					description="We develop your website! Contact us for a quote."
+					description="Visualize the Problem for Best Tactics"
+					image={assessment}
 				>
 					Assessment-Led Solutions
 				</MainButton>
 				<MainButton
+					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={1}
-					description="People/Process/Technology"
+					description="People/Process/Technology
+"
+					image={analysis}
 				>
 					Analysis
 				</MainButton>
 				<MainButton
+					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={2}
-					description="We develop your website!"
+					description="Align Brand, Vision and More"
+					image={design}
 				>
-					Design & Artchitecture
+					Design & Architecture
 				</MainButton>
 				<MainButton
+					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={3}
-					description="We develop your website!"
+					description="Learn, Share, and Repeat"
+					image={mentoring}
 				>
 					Mentoring Workshops
 				</MainButton>
 				<MainButton
+					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={4}
-					description="We develop your website!"
+					description="Hey Ambient, Manage Our Project to Success"
+					image={project}
 				>
 					Project Management
 				</MainButton>
@@ -88,7 +105,7 @@ export default function ProfessionalModal() {
 					className="closeButton"
 					onClick={() => setShowModal(false)}
 				>
-					<IoMdClose />
+					<img src={Close} alt="CloseButton" />
 				</button>
 				{/* <h3>Key Offerings</h3> */}
 

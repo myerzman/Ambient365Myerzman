@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 import { ScheduleButton } from "../components/schedulebutton";
-import Images from "../examples/images";
 import ServiceButton from "../components/servicebutton";
 export default function service() {
 	return (
@@ -15,8 +14,7 @@ export default function service() {
 						<ServiceButton>
 							<h3>Communications Management</h3>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit.
+								From Office to Front-line Workers in One Hub
 							</p>
 						</ServiceButton>
 					</Link>
@@ -24,8 +22,7 @@ export default function service() {
 						<ServiceButton>
 							<h3>Technology Enablement</h3>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit.
+								Cutting-edge Technologies for Best Business Productivity
 							</p>
 						</ServiceButton>
 					</Link>
@@ -42,8 +39,7 @@ export default function service() {
 						<ServiceButton>
 							<h3> Business Process Management </h3>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit.
+								Optimizating Employee Engagement and Efficiency
 							</p>
 						</ServiceButton>
 					</Link>
@@ -51,8 +47,7 @@ export default function service() {
 						<ServiceButton>
 							<h3> Managed Services</h3>{" "}
 							<p>
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit.
+								Cost-Efficient Solution to All IT Issues
 							</p>
 						</ServiceButton>
 					</Link>

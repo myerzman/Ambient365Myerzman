@@ -4,10 +4,15 @@ import ReactModal from "react-modal";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import MainButton from "../../components/mainbutton";
-import { IoMdClose } from "react-icons/Io";
 
 // images
 import Intranet from "../../images/intranet.png";
+import Logo from "../../images/ambient-logo-trans.png";
+import modernintranet from "../../images/modernintranet.png";
+import employeeexperience from "../../images/employeeexperience.png";
+import portal from "../../images/portal.png";
+import frontlineworkers from "../../images/frontlineworkers.png";
+import Close from "../../images/close.png";
 
 //styles
 import "../../components/Modal.css";
@@ -46,17 +51,33 @@ export default function CommunicationsModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={0}
-					description="We develop your website! Contact us for a quote."
+					description="Better Communication Platform for Employees"
+					image={modernintranet}
 				>
 					Modern Intranet
 				</MainButton>
-				<MainButton setItem={setSelectedItem} itemNumber={1}>
+				<MainButton
+					setItem={setSelectedItem}
+					itemNumber={1}
+					description="Happy Employees = Better Workplace"
+					image={employeeexperience}
+				>
 					Employee Experience
 				</MainButton>
-				<MainButton setItem={setSelectedItem} itemNumber={2}>
+				<MainButton
+					setItem={setSelectedItem}
+					itemNumber={2}
+					description="Quicker & Easier Access to Resources"
+					image={portal}
+				>
 					Portals & Collaboration
 				</MainButton>
-				<MainButton setItem={setSelectedItem} itemNumber={3}>
+				<MainButton
+					setItem={setSelectedItem}
+					itemNumber={3}
+					description="Securely Connect Front-line Workers to HQ"
+					image={frontlineworkers}
+				>
 					Mobility to workers
 				</MainButton>
 			</div>
@@ -69,7 +90,7 @@ export default function CommunicationsModal() {
 					className="closeButton"
 					onClick={() => setShowModal(false)}
 				>
-					<IoMdClose />
+					<img src={Close} alt="closeButton" />
 				</button>
 				{/* <h3>Key Offerings</h3> */}
 

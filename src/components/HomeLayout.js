@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./footer";
 import HomeCarousel from "../pages/HomeCarousel";
+import { Link } from "gatsby";
 
 // Images
 
@@ -20,9 +21,11 @@ const Layout = ({ children, pageName }) => {
 
 			<div className="content-container" id="home-container">
 				<div id="content-wrap">
-					<div className="background-image home-background-image">
-						<h1 className="header">{pageName}</h1>
-					</div>
+					<Link to="/about">
+						<div className="background-image home-background-image">
+							<h1 className="header">{pageName}</h1>
+						</div>
+					</Link>
 					<HomeCarousel />
 
 					<div className="container-center">{children}</div>
