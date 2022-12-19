@@ -475,6 +475,12 @@ h2.lowerHeading {
 	bottom: 350px !important;
 	bottom: 100px !important;
 }
+#home-container .carousel p {
+	background: #0000009c;
+	padding: 9px;
+	border-radius: 5px;
+	padding-left: 5px;
+}
 
 .slider-content {
 	position: absolute;
