@@ -19,7 +19,7 @@ export default function HomeCarousel() {
 	return (
 		<>
 			<Carousel
-				autoPlay={false}
+				autoPlay={true}
 				infiniteLoop={true}
 				centerMode={false}
 				// renderThumbs={false}
