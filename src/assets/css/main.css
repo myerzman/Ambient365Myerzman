@@ -415,6 +415,7 @@ form > *:last-child {
 
 .nav-header {
 	height: 6rem;
+	height: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -430,6 +431,97 @@ form > *:last-child {
 	padding: 0.15rem 0.75rem;
 	padding-top: 0px;
 	padding-bottom: 3px;
+}
+
+.mobile-only {
+	display: none;
+}
+
+@media (max-width: 991px) {
+	.nav-btn {
+		padding-top: 3px;
+		margin-top: 28px;
+		padding-bottom: 4px;
+	}
+	.nav .nav-links {
+		z-index: 1002;
+	}
+	.nav .nav-links a {
+		color: #fff;
+	}
+	.nav .show-links {
+		background: var(--primary-red);
+	}
+	.nav .nav-link {
+		border-bottom: 1px solid #bb4746;
+	}
+	body .item-wrapper.tiles.serviceTiles a {
+		flex-basis: 90%;
+		min-height: 100px;
+	}
+	body .tile-wrapper .card {
+		width: 90%;
+	}
+	body .serviceButton {
+		flex-basis: 100%;
+	}
+	body .header {
+		width: 75%;
+		text-align: center;
+		justify-content: center;
+		margin: 20px auto;
+		font-size: 2.5rem;
+		float: none;
+		background: #000000ad;
+		display: none;
+	}
+	body .ReactModal__Content {
+		inset: 0px !important;
+	}
+	body .person .image {
+		width: 100%;
+		padding-top: 20px;
+	}
+	body .person .image img {
+		width: 50%;
+	}
+	body .person .info {
+		text-align: center;
+	}
+	body .person {
+		display: block;
+	}
+	.mobile-only {
+		display: block;
+	}
+	.desktop-only {
+		display: none;
+	}
+	.wp-block-embed iframe {
+		width: 100%;
+		height: auto;
+		min-height: 200px;
+	}
+	.white .multiParagraph * {
+		text-align: center;
+	}
+	body .slider-content {
+		position: absolute;
+		color: #fff;
+		text-align: center;
+		right: 0px;
+		padding-top: 20px;
+		z-index: 11;
+	}
+	#home-container .carousel .control-dots {
+		bottom: 10px !important;
+	}
+	body .colorbackgroundfont {
+		color: #000;
+	}
+	body .white .multiParagraph {
+		background: #0682b7f0;
+	}
 }
 
 .nav-btn svg {

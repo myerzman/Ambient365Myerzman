@@ -64,6 +64,17 @@ const team = ({ data }) => {
 								</>
 							) : (
 								<>
+									<div className="mobile-only image">
+										<img
+											src={
+												person.teamMembers &&
+												person.teamMembers
+													.featuredImage &&
+												person.teamMembers.featuredImage
+													.sourceUrl
+											}
+										/>
+									</div>
 									<div className="info alignRight">
 										<h3>{person.title}</h3>
 
@@ -80,7 +91,7 @@ const team = ({ data }) => {
 											}}
 										/>
 									</div>
-									<div className="image">
+									<div className="desktop-only image">
 										<img
 											src={
 												person.teamMembers &&
