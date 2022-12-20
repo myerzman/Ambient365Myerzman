@@ -28,9 +28,9 @@ const professionalservices = () => {
 			<div className="white">
 				{/*<h1>Professional Services</h1>*/}
 				<div className="multiParagraph">
-					<h2>blah</h2>
-					<h3>blah blah</h3>
-					<p>blah</p>
+					<h2>Simplifying Technological Obstacles with an Agile Solution</h2>
+					<h3>With 30+ Years of Expertises</h3>
+					<p>Focused on the customer journey, Ambient365 inspires the customer/employee experience while streamlining business processes, providing time to value. We approach an agile methodology to professional services and become an extension of the clients'  business and IT services to offer mentoring and best practices. </p>
 				</div>
 			</div>
 			<div className="darkText">

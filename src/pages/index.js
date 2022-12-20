@@ -55,8 +55,7 @@ const IndexPage = () => {
 							<ServiceButton>
 								<h3>Professional Services</h3>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit.
+									Agile Methodology to Technological Obstacles
 								</p>
 							</ServiceButton>
 						</Link>
