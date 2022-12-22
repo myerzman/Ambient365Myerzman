@@ -1,7 +1,21 @@
-.events {
+.events,
+.text-content {
 	background: #fff;
 	padding: 40px 30px;
 	text-align: left;
+}
+body .text-content h2 {
+	background: none;
+	color: #000;
+	font-size: 2rem;
+	box-shadow: none;
+	padding-left: 0px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.text-content p {
+	max-width: 100%;
 }
 
 body .events h2 {

@@ -194,24 +194,24 @@ hr {
 }
 
 #content-wrap {
-	padding-bottom: 20rem; /* Footer height */
+	padding-bottom: 18rem; /* Footer height */
 	background: url("../images/mountains.png");
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	background-size: 90%;
 }
 
-@media (max-width: 700px) {
-	#content-wrap {
-		background-size: 130%;
-	}
-}
-
 .page-footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 20rem; /*Footer height*/
+	height: 18rem; /*Footer height*/
+}
+
+@media (max-width: 700px) {
+	#content-wrap {
+		background-size: 130%;
+	}
 }
 
 .darkText {

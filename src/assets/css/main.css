@@ -81,6 +81,10 @@
 	--fixed-width: 600px;
 }
 
+.red {
+	color: var(--primary-red);
+}
+
 html {
 	font-size: var(--defaultFontSize);
 }
@@ -663,8 +667,8 @@ body .contact-link a:hover {
 /* Footer */
 /*#########*/
 .page-footer {
-	text-align: center; 
-	display: flex;
+	text-align: center;
+	/* display: flex; */
 	align-items: center;
 	justify-content: center;
 	background: gray;
@@ -672,9 +676,18 @@ body .contact-link a:hover {
 	position: sticky;
 }
 
+.page-footer a {
+	color: #fff;
+}
+
+.page-footer a:hover {
+	color: var(--primary-red);
+}
+
 .page-footer h5 {
 	margin-bottom: 0;
 	text-align: left;
+	font-size: 13px;
 }
 
 .page-footer p {
@@ -682,37 +695,74 @@ body .contact-link a:hover {
 	text-align: left;
 }
 
-.page-footer span,
-.page-footer a {
-	color: var(--primary-500);
+.page-footer .columns {
+	padding-top: 20px;
 }
 
-.columns {
-	column-count: 3;
-	column-gap: 40px;
-	column-rule-style: solid;
-	width: 100%;
-	max-width: auto;
-	margin-left: auto;
-	margin-right: auto;
-	column-fill: balance;
+.page-footer .fullWidth p {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+}
 
+.page-footer .logo {
+	width: 100px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.page-footer h3 {
+	font-size: 1.3rem;
+	text-align: left;
+}
+
+.page-footer .secondHeading {
+	margin-top: 10px;
+}
+
+/* .page-footer .center p {
+	text-align: center;
+} */
+
+.columns {
+	/* column-count: 3;
+	column-gap: 40px; */
+	/* column-rule-style: solid; */
+	width: 100%;
+	/* max-width: auto;
+	margin-left: auto;
+	margin-right: auto; */
+	/* column-fill: balance; */
+	display: flex;
+	align-items: flex-start;
+}
+.columns div {
+	flex: 1;
+	justify-content: center;
+	padding: 20px;
+}
+
+.columns div:first-of-type {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 }
 
 .rightstyle {
 	padding: 0;
-	margin:0;
+	margin: 0;
 	display: flex;
 	align-items: center;
 	margin-top: auto;
-	position:flex;
+	position: flex;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .footerlogo {
-	width: 50%;	
-	height:auto;
+	width: 50%;
+	height: auto;
 }
 
 /*#########*/
