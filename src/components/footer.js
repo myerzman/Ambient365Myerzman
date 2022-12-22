@@ -27,7 +27,7 @@ const footer = () => {
 
 					<h3 className="secondHeading">Learn from Us</h3>
 
-					<Link to="event">
+					<Link to="/event">
 						<p> Our Events</p>
 					</Link>
 
