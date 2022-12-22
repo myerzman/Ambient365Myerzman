@@ -663,8 +663,7 @@ body .contact-link a:hover {
 /* Footer */
 /*#########*/
 .page-footer {
-	text-align: center;
-	height: 4rem;
+	text-align: center; 
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -675,15 +674,45 @@ body .contact-link a:hover {
 
 .page-footer h5 {
 	margin-bottom: 0;
+	text-align: left;
 }
 
 .page-footer p {
 	margin-bottom: 0;
+	text-align: left;
 }
 
 .page-footer span,
 .page-footer a {
 	color: var(--primary-500);
+}
+
+.columns {
+	column-count: 3;
+	column-gap: 40px;
+	column-rule-style: solid;
+	width: 100%;
+	max-width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	column-fill: balance;
+
+}
+
+.rightstyle {
+	padding: 0;
+	margin:0;
+	display: flex;
+	align-items: center;
+	margin-top: auto;
+	position:flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footerlogo {
+	width: 50%;	
+	height:auto;
 }
 
 /*#########*/

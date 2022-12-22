@@ -10,6 +10,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 // import "../main.css";
 
+// Modal
+import ManagedModal from "./ManagedModal";
+import { ModalProvider } from "react-modal-hook";
+
 //Icons
 import empowering from "../../images/empowering.png";
 import servanthearted from "../../images/servanthearted.png";
@@ -28,6 +32,9 @@ const managedservices = () => {
 					<p>
 					Managed services is about leveraging outside expertise to eliminate the need for expensive in-house IT resources. Let the specialists handle your IT services and focus your efforts on areas that add value to your business. At Ambient365, we offer Managed Services in cloud productivity and hosting, software development and operations (DevOps) as well as business intelligence and data analytics.{" "}
 				</p>
+				<p>We are your first-tier support for M365</p>
+				<li>We will provide your general M365 ad-hoc consulting services for business support as extended IT Services. This can be a monthly subscription service that allows high value to your IT team.</li>
+				<li>Included in the monthly subscription is IT Helpdesk-related Activities catered to your business</li>
 				</div>
 				
 			</div>
@@ -39,43 +46,10 @@ const managedservices = () => {
 					yield x outcome
 				</p>
 			</div>
-			<div className="tile-wrapper">
-				<MainButton>
-					{" "}
-					<Link to="/service/communicationsmanagement">
-						{" "}
-						communications Management{" "}
-					</Link>
-				</MainButton>
-				<MainButton>
-					{" "}
-					<Link to="/service/technologyenablement">
-						{" "}
-						Technology Enablement{" "}
-					</Link>
-				</MainButton>
-				<MainButton>
-					{" "}
-					<Link to="/service/professionalservices">
-						{" "}
-						Professional Services{" "}
-					</Link>
-				</MainButton>
-				<MainButton>
-					{" "}
-					<Link to="/service/businessprocessmanagement">
-						{" "}
-						Business Process Management{" "}
-					</Link>
-				</MainButton>
-				<MainButton>
-					{" "}
-					<Link to="/service/managedservices">
-						{" "}
-						Managed Services{" "}
-					</Link>
-				</MainButton>
-			</div>
+
+			<ModalProvider>
+				<ManagedModal />
+			</ModalProvider>
 
 			<h1>Ambient's core values for your enterprise needs</h1>
 			<div className="icon-wrapper">

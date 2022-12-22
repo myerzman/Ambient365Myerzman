@@ -1,5 +1,8 @@
 import React from "react";
 import Layout from "../components/Layout";
+import HubspotForm from "react-hubspot-form";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
 
 const contact = () => {
 	return (
@@ -11,30 +14,20 @@ const contact = () => {
 							{" "}
 							Get in Touch with Your Communication Guru Today!{" "}
 						</h3>
+						<h3>Other ways to connect</h3>
+						<p>Give us a toll-free call at 714.987.6311</p>
 					</article>
 					<article>
-						<form className="form contact-form">
-							<div className="form-row">
-								<label htmlFor=""> Full Name </label>
-								<input type="text" name="name" id="name" />
-							</div>
-							<div className="form-row">
-								<label htmlFor=""> Company Name </label>
-								<input
-									type="text"
-									name="company"
-									id="company"
-								/>
-							</div>
-							<div className="form-row">
-								<label htmlFor=""> Company Email </label>
-								<input type="text" name="email" id="email" />
-							</div>
-							<button type="submit" className="btn block">
-								{" "}
-								Submit{" "}
-							</button>
-						</form>
+						<Container>
+				<h4> Schedule a Demo </h4>
+				<HubspotForm
+					portalId="6383339"
+					formId="489a18f4-d81c-4723-a5fd-b0c16037febe"
+					onSubmit={() => console.log("Submit!")}
+					onReady={(form) => console.log("Form ready!")}
+					loading={<div>Loading...</div>}
+				/>
+			</Container>
 					</article>
 				</section>
 			</main>
