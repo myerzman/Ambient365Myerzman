@@ -53,7 +53,7 @@ export default function TechnologyModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={0}
-					description="Better Communication Platform for Employees"
+					description="Allow Scalability & Growth"
 					image={microsoft}
 				>
 					M365 Readiness
@@ -61,7 +61,7 @@ export default function TechnologyModal() {
 				<MainButton
 					setItem={setSelectedItem}
 					itemNumber={1}
-					description="Happy Employees = Better Workplace"
+					description="Central Version Of Truth"
 					image={contents}
 				>
 					Content Management & Migrations
@@ -70,7 +70,7 @@ export default function TechnologyModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={2}
-					description="Better Communication Platform for Employees"
+					description="Connect The Places You Work"
 					image={line}
 				>
 					LOB Application Integration
@@ -78,7 +78,7 @@ export default function TechnologyModal() {
 				<MainButton
 					setItem={setSelectedItem}
 					itemNumber={3}
-					description="Happy Employees = Better Workplace"
+					description="Modern Search Experience"
 					image={search}
 				>
 					Search Strategy
@@ -86,7 +86,7 @@ export default function TechnologyModal() {
 				<MainButton
 					setItem={setSelectedItem}
 					itemNumber={4}
-					description="Happy Employees = Better Workplace"
+					description="Policy Based Rules"
 					image={governance}
 				>
 					Governance
@@ -113,6 +113,7 @@ export default function TechnologyModal() {
 							</div>
 							<div className="col">
 								<h4> M365 Readiness</h4>
+								<h5>Allow Scalability & Growth</h5>
 								<p>
 									At Ambient365, we promote customer success
 									through awareness of mentoring and best
@@ -133,6 +134,7 @@ export default function TechnologyModal() {
 							</div>
 							<div className="col">
 								<h4>Content Management & Migrations</h4>
+								<h5>Central Version Of Truth</h5>
 								<p>
 									A go-forward approach to a new solution
 									provides time to value. Active content
@@ -157,6 +159,7 @@ export default function TechnologyModal() {
 							</div>
 							<div className="col">
 								<h4>LOB Application Integration</h4>
+								<h5>Connect The Places You Work</h5>
 								<p>
 									At Ambient365, we are flexible and creative
 									to our approach to custom integrations.
@@ -177,6 +180,7 @@ export default function TechnologyModal() {
 							</div>
 							<div className="col">
 								<h4>Search Strategy</h4>
+								<h5> Modern Search Experience </h5>
 								<p>
 									Having a search strategy is a priority for
 									enterprise content management. We do this by
@@ -198,6 +202,7 @@ export default function TechnologyModal() {
 							</div>
 							<div className="col">
 								<h4>Governance</h4>
+								<h5> Policy Based Rules</h5>
 								<p>
 									At Ambient365, we believe an understanding
 									for Governance is the heart and soul of

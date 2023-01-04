@@ -27,8 +27,7 @@ const businessprocessmanagement = () => {
 			<div className="white">
 				{/*<h1>Business Prodcess Management</h1>*/}
 				<div className="multiParagraph">
-					<h2>Enhancing Functionality of Your Technologies</h2>
-					<h3>Better Strategy for Best Execution</h3>
+					<h2>Critical Business Processes For Employee Engagement</h2>
 					<p>
 					Business process management (BPM) is a structured approach to improving the processes organizations use to get work done and generate business value. When properly executed, BPM has the ability to enhance efficiency and productivity, reduce costs, and minimize errors and risk – thereby optimizing the employee experience. Ambient365 looks at BMP as an opportunity of continuous improvement for employee engagement and efficiencies.
 				</p>
@@ -36,11 +35,6 @@ const businessprocessmanagement = () => {
 			</div>
 			<div className="darkText">
 				<h4>How We Can Help</h4>
-				<p>
-					{" "}
-					Ambient365 leverages M365 to help our client achieves xyz to
-					yield x outcome
-				</p>
 			</div>
 
 			<ModalProvider>

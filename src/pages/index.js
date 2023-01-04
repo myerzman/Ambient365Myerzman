@@ -39,7 +39,7 @@ const IndexPage = () => {
 							<ServiceButton>
 								<h3>Communications Management</h3>
 								<p>
-									From Office to Front-line Workers in One Hub
+									M365 Employee Experience Platform
 								</p>
 							</ServiceButton>
 						</Link>
@@ -47,7 +47,7 @@ const IndexPage = () => {
 							<ServiceButton>
 								<h3>Technology Enablement</h3>
 								<p>
-									Cutting-edge Technologies for Best Business Productivity
+									Optimization For People, Process, and Technology
 								</p>
 							</ServiceButton>
 						</Link>
@@ -55,7 +55,7 @@ const IndexPage = () => {
 							<ServiceButton>
 								<h3>Professional Services</h3>
 								<p>
-									Agile Methodology to Technological Obstacles
+									Agnostic Approach With Assessment-Led Solutions
 								</p>
 							</ServiceButton>
 						</Link>
@@ -63,7 +63,7 @@ const IndexPage = () => {
 							<ServiceButton>
 								<h3> Business Process Management </h3>
 								<p>
-									Optimizating Employee Engagement and Efficiency
+									Critical Business Processes For Employee Engagement
 								</p>
 							</ServiceButton>
 						</Link>
@@ -71,7 +71,7 @@ const IndexPage = () => {
 							<ServiceButton>
 								<h3> Managed Services</h3>{" "}
 								<p>
-									Cost-Efficient Solution to All IT Issues
+									Continuous Improvements As An Extension Of Your IT
 								</p>
 							</ServiceButton>
 						</Link>

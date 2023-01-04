@@ -51,7 +51,7 @@ export default function ManagedModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={0}
-					description="We develop your website! Contact us for a quote."
+					description="Check In’s For Optimization Opportunities"
 					image={powerplatform}
 				>
 					Health Check Services & Support
@@ -60,7 +60,7 @@ export default function ManagedModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={1}
-					description="We develop your website! Contact us for a quote."
+					description="Informed Business Decisions"
 					image={centerofexcellence}
 				>
 					Analytics & Business Intelligence
@@ -69,7 +69,7 @@ export default function ManagedModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={2}
-					description="We develop your website! Contact us for a quote."
+					description="Boosting Productivity"
 					image={lifecycle}
 				>
 					Cloud Productivity & Hosting
@@ -78,7 +78,7 @@ export default function ManagedModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={3}
-					description="We develop your website! Contact us for a quote."
+					description="Delivering Time To Value"
 					image={criticalbusinessprocess}
 					>
 					SDLC & DevOps
@@ -106,7 +106,7 @@ export default function ManagedModal() {
 							<div className="col">
 								<h4>Health Check Services & Support</h4>
 								<p>
-									An IT health check is a complete, independent assessment of your business's cyber security. The goal is to test how well protected your systems are and how vulnerable they might be to someone trying to get, whether inadvertently or with serious intent. We can help by regular, check-ins, to ensure your environment is performing well and recommend optimization opportunities.
+									Check In’s For Optimization Opportunities
 								</p>
 							</div>
 						</div>
@@ -119,7 +119,7 @@ export default function ManagedModal() {
 							<div className="col">
 								<h4>Analytics & Business Intelligence</h4>
 								<p>
-									All organizations are under increased pressure to get the most out of their mountains of data and make more informed business decisions. Many emerging trends require companies to evaluate their data processes and become more data driven. Ambient365 can help to turn raw data into actionable information.
+									Informed Business Decisions
 								</p>
 							</div>
 						</div>
@@ -132,7 +132,7 @@ export default function ManagedModal() {
 							<div className="col">
 								<h4>Cloud Productivity & Hosting</h4>
 								<p>
-									The cloud boosts productivity. Ambient365 can help to recommend the best choices so your programs will also be more reliable and kept up-to-date at all times. Data and analytics can be shared across the entire organization in real-time to aid decision-making, reduce duplicated efforts, and minimize errors.
+									Boosting Productivity
 								</p>
 							</div>
 						</div>
@@ -145,7 +145,7 @@ export default function ManagedModal() {
 							<div className="col">
 								<h4>SDLC & DevOps</h4>
 								<p>
-									The DevOps methodology is a relative newcomer to the SDLC scene. It emerged from two trends: the application of Agile and Lean practices to operations work, and the general shift in business toward seeing the value of collaboration between development and operations staff at all stages of the SDLC process. We break DevOps into five main areas: Automation, Cloud-Native, Culture, Security, and Observability. Ambient365 has extensive experience to customize apps and creativity to deliver time to value.
+									Delivering Time To Value
 								</p>
 							</div>
 						</div>

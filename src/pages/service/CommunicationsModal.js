@@ -51,7 +51,7 @@ export default function CommunicationsModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={0}
-					description="Better Communication Platform for Employees"
+					description="Allowing Time To Value"
 					image={modernintranet}
 				>
 					Modern Intranet
@@ -59,7 +59,7 @@ export default function CommunicationsModal() {
 				<MainButton
 					setItem={setSelectedItem}
 					itemNumber={1}
-					description="Happy Employees = Better Workplace"
+					description="Creating A Thriving Culture"
 					image={employeeexperience}
 				>
 					Employee Experience
@@ -67,7 +67,7 @@ export default function CommunicationsModal() {
 				<MainButton
 					setItem={setSelectedItem}
 					itemNumber={2}
-					description="Quicker & Easier Access to Resources"
+					description="Reducing Redundancy"
 					image={portal}
 				>
 					Portals & Collaboration
@@ -75,7 +75,7 @@ export default function CommunicationsModal() {
 				<MainButton
 					setItem={setSelectedItem}
 					itemNumber={3}
-					description="Securely Connect Front-line Workers to HQ"
+					description="Reaching Front Line Workers"
 					image={frontlineworkers}
 				>
 					Mobility to workers
@@ -102,6 +102,7 @@ export default function CommunicationsModal() {
 							</div>
 							<div className="col">
 								<h4>Modern Intranet</h4>
+								<h5> Allowing Time To Value </h5>
 								<p>
 									A modern intranet is designed with the
 									employee experience in mind making it easy
@@ -128,6 +129,7 @@ export default function CommunicationsModal() {
 							</div>
 							<div className="col">
 								<h4>Employee Experience</h4>
+								<h5> Creating A Thriving Culture </h5>
 								<p>
 									During the customer journey to
 									modernization, understanding current work
@@ -152,6 +154,7 @@ export default function CommunicationsModal() {
 							</div>
 							<div className="col">
 								<h4>Portals & Collaboration</h4>
+								<h5>Reducing Redundancy</h5>
 								<p>
 									Quickly and easily get to the people you
 									work with and the places that you work.
@@ -171,6 +174,7 @@ export default function CommunicationsModal() {
 							</div>
 							<div className="col">
 								<h4>Mobility to workers</h4>
+								<h5>Reaching Front Line Workers</h5>
 								<p>
 									Securely connect to a mobile device to
 									receive internal communications and

@@ -199,6 +199,7 @@ hr {
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	background-size: 90%;
+	background-position-y:85%;
 }
 
 .page-footer {

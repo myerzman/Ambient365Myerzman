@@ -51,7 +51,7 @@ export default function BusinessModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={0}
-					description="We develop your website! Contact us for a quote."
+					description="Automation Optimization"
 					image={powerplatform}
 				>
 					Power Platform
@@ -60,7 +60,7 @@ export default function BusinessModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={1}
-					description="We develop your website! Contact us for a quote."
+					description="Driving Innovation & Improvement"
 					image={centerofexcellence}
 				>
 					Center of Excellence
@@ -69,7 +69,7 @@ export default function BusinessModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={2}
-					description="We develop your website! Contact us for a quote."
+					description="End To End Solutions"
 					image={lifecycle}
 				>
 					Lifecycle Management
@@ -78,7 +78,7 @@ export default function BusinessModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={3}
-					description="We develop your website! Contact us for a quote."
+					description="Workflows With Strong ROI"
 					image={criticalbusinessprocess}
 					>
 					Critical Business Processes
@@ -87,7 +87,7 @@ export default function BusinessModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={4}
-					description="We develop your website! Contact us for a quote."
+					description="Tailor-Made Software Applications"
 					image={customapplication}
 				>
 					Custom Applications
@@ -114,6 +114,7 @@ export default function BusinessModal() {
 							</div>
 							<div className="col">
 								<h4>Power Platform</h4>
+								<h5>Automation Optimization</h5>
 								<p>
 									Microsoft Power Platform is a line of
 									business intelligence, app development, and
@@ -135,6 +136,7 @@ export default function BusinessModal() {
 							</div>
 							<div className="col">
 								<h4>Center of Excellence</h4>
+								<h5>Driving Innovation & Improvement</h5>
 								<p>
 									Establishing a Microsoft Power Platform
 									Center of Excellence (CoE) means investing
@@ -155,6 +157,7 @@ export default function BusinessModal() {
 							</div>
 							<div className="col">
 								<h4>Lifecycle Management</h4>
+								<h5>End To End Solutions</h5>
 								<p>
 									Every record has a lifecycle. At Ambient365,
 									we ask the questions of where does this
@@ -182,6 +185,7 @@ export default function BusinessModal() {
 							</div>
 							<div className="col">
 								<h4>Critical Business Processes</h4>
+								<h5>Workflows With Strong ROI</h5>
 								<p>
 									At Ambient365, we automate manual processes
 									to modernize the employee experience from
@@ -209,6 +213,7 @@ export default function BusinessModal() {
 							</div>
 							<div className="col">
 								<h4>Custom Applications</h4>
+								<h5>Tailor-Made Software Applications</h5>
 								<p>
 									Custom application development is the
 									process of designing, creating and deploying

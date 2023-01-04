@@ -6,8 +6,8 @@ import { Link } from "gatsby";
 const footer = () => {
 	return (
 		<footer className="page-footer">
-			<div className="columns">
-				<div>
+		<div className="columns"> 
+			<div>
 					<img src={Logo} alt="Ambient365" className="logo" />
 					<Link to="/privacy">Privacy Policy</Link>
 				</div>
@@ -55,8 +55,8 @@ const footer = () => {
 					&copy; {new Date().getFullYear()}{" "}
 					<span className="red"> Ambient365 </span> All rights
 					reserved
-				</p>
-			</div>
+			</p>
+		</div>
 		</footer>
 	);
 };

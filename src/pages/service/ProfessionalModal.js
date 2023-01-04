@@ -52,7 +52,7 @@ export default function ProfessionalModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={0}
-					description="Visualize the Problem for Best Tactics"
+					description="Agnostic Approach Recommendations"
 					image={assessment}
 				>
 					Assessment-Led Solutions
@@ -61,8 +61,7 @@ export default function ProfessionalModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={1}
-					description="People/Process/Technology
-"
+					description="Allowing For Continuous Improvements"
 					image={analysis}
 				>
 					Analysis
@@ -71,7 +70,7 @@ export default function ProfessionalModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={2}
-					description="Align Brand, Vision and More"
+					description="Promoting Scalability & Structure"
 					image={design}
 				>
 					Design & Architecture
@@ -80,7 +79,7 @@ export default function ProfessionalModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={3}
-					description="Learn, Share, and Repeat"
+					description="Education & Best Practices"
 					image={mentoring}
 				>
 					Mentoring Workshops
@@ -89,7 +88,7 @@ export default function ProfessionalModal() {
 					// onClick={() => setSelectedItem(0)}
 					setItem={setSelectedItem}
 					itemNumber={4}
-					description="Hey Ambient, Manage Our Project to Success"
+					description="Nurturing Customer Experience"
 					image={project}
 				>
 					Project Management
@@ -117,6 +116,7 @@ export default function ProfessionalModal() {
 							</div>
 							<div className="col">
 								<h4>Assessment-Led Solutions</h4>
+								<h5>Agnostic Approach Recommendations</h5>
 								<p>
 									Following market trends by Gartner, Inc, and
 									Forrester Research, Ambient365 believes in
@@ -139,6 +139,7 @@ export default function ProfessionalModal() {
 							</div>
 							<div className="col">
 								<h4>Analysis: People/Process/Technology</h4>
+								<h5>Allowing For Continuous Improvements</h5>
 								<p>
 									Using leading analytics and a methodology
 									that understands the compelling need from
@@ -163,6 +164,7 @@ export default function ProfessionalModal() {
 							</div>
 							<div className="col">
 								<h4>Design & Architecture</h4>
+								<h5>Promoting Scalability & Structure</h5>
 								<p>
 									Align the entire organization around your
 									brand, vision, mission, and strategic
@@ -188,6 +190,7 @@ export default function ProfessionalModal() {
 							</div>
 							<div className="col">
 								<h4>Mentoring Workshop</h4>
+								<h5>Education & Best Practices</h5>
 								<p>
 									Ambient365 has a variety of workshops that
 									provide a thought process behind the
@@ -215,6 +218,7 @@ export default function ProfessionalModal() {
 							</div>
 							<div className="col">
 								<h4>Project Management</h4>
+								<h5>Nurturing Customer Experience</h5>
 								<p>
 									At Ambient365 we provide an Agile Project
 									Management methodology. We understand that

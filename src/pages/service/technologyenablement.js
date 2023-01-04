@@ -27,8 +27,7 @@ const technologyenablement = () => {
 			<div className="white">
 				{/* <h1>Technology Enablement</h1> */}
 				<div className="multiParagraph">
-					<h2>Enabling Employee Success</h2>
-					<h3>Next Level Technology for Your Employees</h3>
+					<h2>Optimization For People, Process, and Technology</h2>
 					<p>Technology Enablement is about equipping businesses with current and cutting-edge technologies that improve employee engagement and process efficiencies. Technology should not be an inhibitor to business productivity if solutioned, implemented and communicated correctly. </p>
 				<p> Ambient365 has been successful in guiding and transitioning its clients a technology transformation. Whether it be for a custom corporate intranet, content management solution with custom integrations to external business applications, or a collaboration space to digitize workflows and processes, Ambient365 has been successfully enabling companies to succeed.
 {" "}
@@ -37,11 +36,6 @@ const technologyenablement = () => {
 			</div>
 			<div className="darkText">
 				<h4>How We Can Help</h4>
-				<p>
-					{" "}
-					Ambient365 leverages M365 to help our client achieves xyz to
-					yield x outcome
-				</p>
 			</div>
 
 			<ModalProvider>

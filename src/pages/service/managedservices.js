@@ -27,8 +27,7 @@ const managedservices = () => {
 			<div className="white">
 				{/* <h1>Managed Services</h1> */}
 				<div className="multiParagraph">
-					<h2>Alleviating Cumbersome Issues</h2>
-					<h3> All-in-One Solution for IT Environment </h3>
+					<h2>Continuous Improvements As An Extension Of Your IT</h2>
 					<p>
 					Managed services is about leveraging outside expertise to eliminate the need for expensive in-house IT resources. Let the specialists handle your IT services and focus your efforts on areas that add value to your business. At Ambient365, we offer Managed Services in cloud productivity and hosting, software development and operations (DevOps) as well as business intelligence and data analytics.{" "}
 				</p>
@@ -40,11 +39,6 @@ const managedservices = () => {
 			</div>
 			<div className="darkText">
 				<h4>How We Can Help</h4>
-				<p>
-					{" "}
-					Ambient365 leverages M365 to help our client achieves xyz to
-					yield x outcome
-				</p>
 			</div>
 
 			<ModalProvider>

@@ -27,8 +27,7 @@ const communicationsmanagement = () => {
 			<div className="white">
 				{/* <h1>Communications Management</h1>*/}
 				<div className="multiParagraph">
-					<h2>Creating a thriving culture</h2>
-					<h3>A Digital Platform that works for you</h3>
+					<h2>M365 Employee Experience Platform</h2>
 					<p>
 						At Ambient365 we understand the driving force of any
 						business is its people. Our mentoring and best practices
@@ -41,11 +40,6 @@ const communicationsmanagement = () => {
 			</div>
 			<div className="darkText">
 				<h4>How We Can Help</h4>
-				<p>
-					{" "}
-					Ambient365 leverages M365 to help our client achieves xyz to
-					yield x outcome
-				</p>
 			</div>
 
 			<ModalProvider>
