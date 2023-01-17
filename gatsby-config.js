@@ -5,6 +5,22 @@ module.exports = {
 	plugins: [],
 };
 
+module.exports {
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-next-seo',
+      options: {
+        openGraph: {
+          type: 'website',
+          locale: 'en_IE',
+          url: 'https://www.ambient365.us',
+          site_name: 'Ambient365',
+        },
+      },
+    },
+  ],
+}
+
 module.exports = {
 	plugins: [
 		{
