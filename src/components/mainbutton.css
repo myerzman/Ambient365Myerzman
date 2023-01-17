@@ -26,6 +26,7 @@
 	overflow: hidden;
 	margin: 10px;
 	cursor: pointer;
+	width: 40%;
 }
 
 .tile-wrapper .card:before {

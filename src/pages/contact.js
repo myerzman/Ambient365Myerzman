@@ -4,19 +4,24 @@ import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 
+
+
 const contact = () => {
 	return (
 		<Layout pageName="Contact Us">
 			<main className="Page">
 				<section className="contact-page">
-					<article className="contact-info">
-						<h3>
+					<div className="white">
+						<div className="multiParagraph">
+							<article className="contact-info">
+						<h2>
 							{" "}
 							Get in Touch with Your Communication Guru Today!{" "}
-						</h3>
-						<h3>Other ways to connect</h3>
-						<p>Give us a toll-free call at 714.987.6311</p>
-					</article>
+						</h2>
+						<p>Or you can also give us a call at 714.987.6311</p>
+							</article>
+						</div>
+					</div>
 					<article>
 						<Container>
 				<h4> Schedule a Demo </h4>

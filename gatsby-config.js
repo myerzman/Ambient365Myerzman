@@ -1,12 +1,21 @@
-module.exports = {
-	siteMetadata: {
-		siteUrl: `https://www.yourdomain.tld`,
-	},
-	plugins: [],
-};
+
 
 module.exports = {
+	siteMetadata: {
+		siteUrl: `https://www.ambient365.us`,
+	},
 	plugins: [
+		{
+      resolve: 'gatsby-plugin-next-seo',
+      options: {
+        openGraph: {
+          type: 'website',
+          locale: 'en_IE',
+          url: 'https://www.ambient365.us',
+          site_name: 'Ambient365',
+        },
+      },
+    },
 		{
 			resolve: `gatsby-plugin-styled-components`,
 			options: {

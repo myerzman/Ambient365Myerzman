@@ -41,7 +41,23 @@
 .ReactModal__Content {
 	inset: 50px !important;
 	padding: 30px !important;
+	height: 500px;
+	overflow: visible;
+
 }
+
+
+@media(max-width: 1200px){ 
+	.ReactModal__Content {
+	height: 650px;
+	}
+}
+@media(max-width: 800px){ 
+	.ReactModal__Content {
+	height: auto;
+	}
+}
+
 
 .ReactModal__Overlay {
 	background-color: rgba(0, 0, 0, 0.55) !important;
@@ -49,10 +65,11 @@
 
 .closeButton {
 	position: absolute;
-	top: 0px;
-	right: 0px;
+	top: -10px;
+	right: -10px;
 	border-radius: 50%;
 	padding: 0.375rem 0.62rem !important;
+	background: #333;
 }
 
 .carousel.carousel-slider .control-arrow {

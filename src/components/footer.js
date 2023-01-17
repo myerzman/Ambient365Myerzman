@@ -3,33 +3,38 @@ import Logo from "../images/ambient-logo-trans.png";
 import "./mainbutton.css";
 import { Link } from "gatsby";
 
+//image
+import Ambient365Logowhite from "../images/Ambient365Logo-white.png";
+import Ambient365Logoblack from "../images/Ambient365Logo-black.png";
+
 const footer = () => {
 	return (
 		<footer className="page-footer">
-		<div className="columns"> 
-			<div>
-					<img src={Logo} alt="Ambient365" className="logo" />
-					<Link to="/privacy">Privacy Policy</Link>
-				</div>
+		<div className="columns container-center"> 
+				
 
 				<div>
 					<h3>Get to Know Us</h3>
-
+					<p> 
 					<Link to="/about">
-						<p> Our Story </p>
-					</Link>
+						Our Story 
+					</Link></p>
+					<p> 
 					<Link to="/service">
-						<p> Our Services </p>
-					</Link>
+					Our Services 
+					</Link></p>
+					<p> 
 					<Link to="/team">
-						<p> Our Team </p>
+					Our Team 
 					</Link>
+					</p>
 
 					<h3 className="secondHeading">Learn from Us</h3>
-
+					<p> 
 					<Link to="/event">
-						<p> Our Events</p>
+					Our Events
 					</Link>
+					</p>
 
 					{/* <Link>
 						<p> Our Insights </p>
@@ -39,22 +44,36 @@ const footer = () => {
 					<h3> Contact Us </h3>
 					<p>
 						{" "}
-						Address: 135 S State College Blvd, Suite 200 Brea, CA
-						92821
+						Address:
 					</p>
-					<p> Email: info@ambientstudios.com </p>
+					<p>
+						{" "}
+						135 S State College Blvd<br /> Suite 200
+					</p>
+					<p>
+						{" "}
+						Brea, CA 92821
+					</p>
+					<p> Email: info@ambient365.us </p>
 					<p> Tel: 714.987.6311 </p>
+					<p>
 					<Link to="/contact">
 						{" "}
-						<p> Contact </p>
+					 Contact 
+					</Link>
+					</p>
+				</div>
+				<div className="footerlogo">
+					<Link to="/">
+						<img src={Ambient365Logoblack} alt="Ambient365" className="logo" />
 					</Link>
 				</div>
 			</div>
 			<div className="fullWidth">
 				<p>
 					&copy; {new Date().getFullYear()}{" "}
-					<span className="red"> Ambient365 </span> All rights
-					reserved
+					<Link to="mailto:info@ambient365.us"><span>Ambient365.us</span></Link> All rights
+					reserved. <Link to="/privacy">Privacy Policy</Link>
 			</p>
 		</div>
 		</footer>
