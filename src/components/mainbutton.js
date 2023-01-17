@@ -13,11 +13,11 @@ export default function mainbutton(props) {
 			className="mainButton card"
 			onClick={() => props.setItem(props.itemNumber)}
 		>
-			<div class="imgBx">
+			<div className="imgBx">
 				<img src={props.image ? props.image : Logo} alt="Ambient365" />
 			</div>
 
-			<div class="contentBx">
+			<div className="contentBx">
 				<h3>{props.children}</h3>
 				<p>{props.description && props.description}</p>
 			</div>
