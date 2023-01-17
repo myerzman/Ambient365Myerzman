@@ -423,10 +423,11 @@ form > *:last-child {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex: 2;
 }
 
 .nav-header img {
-	width: 224px;
+	width: 280px;
 	margin-left: -6px;
 	margin-bottom: -3px;
 }
@@ -476,8 +477,10 @@ form > *:last-child {
 		margin: 20px auto;
 		font-size: 2.5rem;
 		float: none;
-		background: #000000ad;
-		display: none;
+		background: #00000082;
+		/* display: none; */
+		border-radius: 15px;
+		padding: 10px 20px;
 	}
 	body .ReactModal__Content {
 		inset: 0px !important;
@@ -538,10 +541,11 @@ form > *:last-child {
 	display: flex;
 	flex-direction: column;
 	transition: var(--transition);
-	flex: 1;
+	flex: 3;
 	z-index: 30;
 	position: relative;
 	background: #fff;
+	margin-right: 50px;
 }
 
 .show-links {
@@ -563,6 +567,7 @@ body .nav-link {
 	flex: 1;
 	white-space: nowrap;
 	border-radius: 5px;
+	font-size: 16px;
 }
 
 body .nav-link:hover {
@@ -584,6 +589,9 @@ body .nav-link:hover {
 	border-bottom-left-radius: 80px 80px;
 	padding: 0px 10px 0px 15px;
 	transition: 0.5s all;
+	padding: 3px 10px 0px 26px;
+	transition: 0.5s all;
+	height: 40px;
 }
 
 .contact-link:hover {
@@ -642,9 +650,10 @@ body .contact-link a:hover {
 		align-items: center;
 	}
 
-	.active-link {
+	body .active-link {
 		border-bottom: 1px solid var(--primary-red);
 		border-radius: 0px !important;
+		color:var(--primary-red);
 	}
 	body .active-link:hover {
 		border: 0px;
@@ -676,8 +685,9 @@ body .contact-link a:hover {
 	position: sticky;
 }
 
-.page-footer a {
+.page-footer a, .page-footer p {
 	color: #fff;
+	font-size: .7rem;
 }
 
 .page-footer a:hover {
@@ -706,13 +716,13 @@ body .contact-link a:hover {
 }
 
 .page-footer .logo {
-	width: 100px;
+	width: 200px;
 	margin: auto;
 	margin-bottom: 20px;
 }
 
 .page-footer h3 {
-	font-size: 1.3rem;
+	font-size: 1rem;
 	text-align: left;
 }
 
@@ -1142,11 +1152,17 @@ body .contact-link a:hover {
 	text-transform: capitalize;
 }
 
+.container-center.columns{
+	padding-bottom: 0px;
+	min-height: 0;
+}
+
 @media (max-width: 575px) {
 	.container {
 		background-color: rgb(200, 200, 200);
 		color: black;
 	}
+
 }
 
 @media (min-width: 576px) {
@@ -1223,6 +1239,10 @@ body .contact-link a:hover {
 
 .contact-info {
 	color: #fff;
+}
+
+.multiParagraph .contact-info p{
+	text-align: center;
 }
 
 @media (max-width: 1050px) {
