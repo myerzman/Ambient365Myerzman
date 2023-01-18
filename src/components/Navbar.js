@@ -55,6 +55,14 @@ const Navbar = () => {
 					>
 						Our Events
 					</Link>
+					<Link
+						to="/news"
+						className="nav-link"
+						activeClassName="active-link"
+						onClick={() => setShow(false)}
+					>
+						News
+					</Link>
 				</div>
 				<div className="contact-link">
 					<Link to="/contact" onClick={() => setShow(false)}>

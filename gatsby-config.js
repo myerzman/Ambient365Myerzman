@@ -30,7 +30,7 @@ module.exports = {
 				// This is field under which it's accessible
 				fieldName: `wpgraphql`,
 				// Url to query from
-				url: `http://24i.903.myftpupload.com/graphql`,
+				url: `https://www.ambientstudios.com/graphql`,
 			},
 		},
 		{
@@ -50,7 +50,7 @@ module.exports = {
 				url:
 					// allows a fallback url if WPGRAPHQL_URL is not set in the env, this may be a local or remote WP instance.
 					process.env.WPGRAPHQL_URL ||
-					`http://24i.903.myftpupload.com/graphql`,
+					`https://www.ambientstudios.com/graphql`,
 
 				schema: {
 					//Prefixes all WP Types with "Wp" so "Post and allPost" become "WpPost and allWpPost".

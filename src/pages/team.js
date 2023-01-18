@@ -5,7 +5,8 @@ import { graphql } from "gatsby";
 export const pageQuery = graphql`
 	query {
 		allWpTeammember {
-			nodes {
+			edges{
+			node {
 				title
 				content
 				teamMembers {
@@ -17,18 +18,19 @@ export const pageQuery = graphql`
 				}
 			}
 		}
+		}
 	}
 `;
 
 const team = ({ data }) => {
-	console.log("data team", data.allWpTeammember.nodes);
+	console.log("data team", data.allWpTeammember.edges);
 	return (
 		<Layout pageName="Our Team">
 			<h1 className="colorbackgroundfont">Meet the Team</h1>
 			<div className="teamWrapper">
-				{data.allWpTeammember.nodes
+				{data.allWpTeammember.edges
 					.sort((a, b) =>
-						a.teamMembers.order > b.teamMembers.order ? 1 : -1
+						a.node.teamMembers.order > b.node.teamMembers.order ? 1 : -1
 					)
 					.map((person, index) => (
 						<div className="person">
@@ -37,27 +39,27 @@ const team = ({ data }) => {
 									<div className="image">
 										<img
 											src={
-												person.teamMembers &&
-												person.teamMembers
+												person.node.teamMembers &&
+												person.node.teamMembers
 													.featuredImage &&
-												person.teamMembers.featuredImage
+												person.node.teamMembers.featuredImage
 													.sourceUrl
 											}
 										/>
 									</div>
 									<div className="info alignLeft">
-										<h3>{person.title}</h3>
+										<h3>{person.node.title}</h3>
 
 										<span className="position">
 											{" "}
-											{person.teamMembers &&
-												person.teamMembers.position &&
-												person.teamMembers.position}
+											{person.node.teamMembers &&
+												person.node.teamMembers.position &&
+												person.node.teamMembers.position}
 										</span>
 
 										<div
 											dangerouslySetInnerHTML={{
-												__html: person.content,
+												__html: person.node.content,
 											}}
 										/>
 									</div>
@@ -67,37 +69,37 @@ const team = ({ data }) => {
 									<div className="mobile-only image">
 										<img
 											src={
-												person.teamMembers &&
-												person.teamMembers
+												person.node.teamMembers &&
+												person.node.teamMembers
 													.featuredImage &&
-												person.teamMembers.featuredImage
+												person.node.teamMembers.featuredImage
 													.sourceUrl
 											}
 										/>
 									</div>
 									<div className="info alignRight">
-										<h3>{person.title}</h3>
+										<h3>{person.node.title}</h3>
 
 										<span className="position">
 											{" "}
-											{person.teamMembers &&
-												person.teamMembers.position &&
-												person.teamMembers.position}
+											{person.node.teamMembers &&
+												person.node.teamMembers.position &&
+												person.node.teamMembers.position}
 										</span>
 
 										<div
 											dangerouslySetInnerHTML={{
-												__html: person.content,
+												__html: person.node.content,
 											}}
 										/>
 									</div>
 									<div className="desktop-only image">
 										<img
 											src={
-												person.teamMembers &&
-												person.teamMembers
+												person.node.teamMembers &&
+												person.node.teamMembers
 													.featuredImage &&
-												person.teamMembers.featuredImage
+												person.node.teamMembers.featuredImage
 													.sourceUrl
 											}
 										/>
