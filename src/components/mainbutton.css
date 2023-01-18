@@ -37,23 +37,31 @@
 	width: 100%;
 	height: 100%;
 	background: var(--primary-blue);
-	clip-path: circle(150px at 80% 20%);
+	/* clip-path: circle(150px at 80% 20%); */
 	transition: 0.5s ease-in-out;
+	background: url(../images/ambient-logo-trans.png);
+    background-repeat: no-repeat;
+    background-position: 113% -5%;
+    background-size: 58%;
+    opacity: .1;
 }
 
 .tile-wrapper .card:hover:before {
-	clip-path: circle(300px at 80% -20%);
+	/* clip-path: circle(300px at 80% -20%); */
+	background-position: 55% 11%;
+	background-size: 78%;
+	opacity: .2;
 }
 
 .tile-wrapper .card:after {
-	content: "365";
+	/* content: "365";
 	position: absolute;
 	top: 30%;
 	left: -20%;
 	font-size: 12em;
 	font-weight: 800;
 	font-style: italic;
-	color: rgba(255, 255, 255, 0.04);
+	color: rgba(255, 255, 255, 0.04); */
 }
 
 .tile-wrapper .card .imgBx {

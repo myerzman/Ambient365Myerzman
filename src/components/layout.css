@@ -286,6 +286,7 @@ h2.lowerHeading {
 	background: none;
 	box-shadow: none;
 	color: #666;
+	width: 100%;
 }
 .darkText h4:before {
 	/* content: "";
@@ -338,6 +339,7 @@ h2.lowerHeading {
 
 .white .multiParagraph p {
 	background: transparent;
+	max-width: none;
 }
 
 .white .multiParagraph {

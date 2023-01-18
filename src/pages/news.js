@@ -28,7 +28,7 @@ export const pageQuery = graphql`
 const news = ({ data }) => {
 	console.log("my data,", data);
 	return (
-		<Layout>
+		<Layout pageName="News">
 			<>
 				<h2 className="grayheading">Our News</h2>
 				<div className="events">

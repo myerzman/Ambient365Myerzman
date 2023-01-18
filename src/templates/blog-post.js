@@ -8,7 +8,7 @@ export default ({ data }) => {
 	return (
 		<Layout>
 			<Link className="returnLink" to="/event">
-				Back to Events
+				Back 
 			</Link>
 
 			<div className="events">
@@ -18,7 +18,7 @@ export default ({ data }) => {
 				<p> On: {post.date} </p>
 			</div>
 			<Link className="returnLink bottom" to="/event">
-				Back to Events
+				Back
 			</Link>
 		</Layout>
 	);

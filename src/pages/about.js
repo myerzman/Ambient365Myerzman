@@ -1,8 +1,21 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
 function about() {
 	return (
 		<Layout pageName="About">
+
+		<GatsbySeo
+      title='Ambient About Page'
+      description='A short description goes here.'
+			metaTags={[{
+				property: 'dc:creator',
+				content: 'Jane Doe'
+			}, {
+				name: 'application-name',
+				content: 'GatsbySeo'
+			}]}
+    />
 			<div className="events">
 				<p>Ambient365 is a Microsoft Practice primary focus. Established in 2012, Ambient Studios is a Cloud Solutions Provider and technology professional services firm that was founded with the desire to nurture engagements that are client-focused, innovative, and honest.</p>
 				<p>Focused on the customer journey, Ambient inspires the customer/employee experience while streamlining business processes, providing time to value. We deliver innovative technology solutions, transformative workplace automations, and genuine client-focused managed services to drive business productivity and efficiency.</p>

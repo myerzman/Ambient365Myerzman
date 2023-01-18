@@ -46,6 +46,12 @@ body .events h2 {
 	text-decoration: none;
 }
 
+@media(max-width: 1000px){
+	.returnLink{
+		color: #000;
+	}
+}
+
 .returnLink:hover {
 	text-decoration: underline;
 }

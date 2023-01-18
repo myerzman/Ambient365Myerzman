@@ -8,7 +8,7 @@ import ScheduleButton from "../../components/schedulebutton";
 import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
-// import { GatsbySeo } from 'gatsby-plugin-next-seo';
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 // import "../main.css";
 
@@ -26,28 +26,15 @@ import aspirational from "../../images/aspirational.png";
 const businessprocessmanagement = () => {
 	return (
 		<Layout pageName="Business Process Management">  
-		{/* <GatsbySeo
+		<GatsbySeo
       openGraph={{
         type: 'website',
         url: 'https://www.example.com/page',
         title: 'Open Graph Title',
         description: 'Open Graph Description',
-        images: [
-          {
-            url: 'https://www.example.ie/og-image.jpg',
-            width: 800,
-            height: 600,
-            alt: 'Og Image Alt',
-          },
-          {
-            url: 'https://www.example.ie/og-image-2.jpg',
-            width: 800,
-            height: 600,
-            alt: 'Og Image Alt 2',
-          },
-        ],
+       
       }}
-    /> */}
+    />
 			<div className="white">
 				{/*<h1>Business Prodcess Management</h1>*/}
 				<div className="multiParagraph">
