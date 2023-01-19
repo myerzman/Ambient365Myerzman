@@ -46,7 +46,7 @@ const communicationsmanagement = () => {
 				<CommunicationsModal />
 			</ModalProvider>
 
-			<h1>Ambient's core values for your enterprise needs</h1>
+			<h1>Ambient's core values <br />for your enterprise needs</h1>
 			<div className="icon-wrapper">
 				<div className="reacticon">
 					<img
