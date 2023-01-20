@@ -8,6 +8,8 @@ import ScheduleButton from "../../components/schedulebutton";
 import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
+
 // import "../main.css";
 
 // Modal
@@ -15,7 +17,7 @@ import ManagedModal from "./ManagedModal";
 import { ModalProvider } from "react-modal-hook";
 
 //Icons
-import empowering from "../../images/empowering.png";
+import CoreEmpower from "../../images/CoreEmpower.png";
 import servanthearted from "../../images/servanthearted.png";
 import responsible from "../../images/responsible.png";
 import committed from "../../images/committed.png";
@@ -24,6 +26,14 @@ import aspirational from "../../images/aspirational.png";
 const managedservices = () => {
 	return (
 		<Layout pageName="Managed Services">
+			<GatsbySeo
+      openGraph={{
+        type: 'website',
+        url: 'https://www.ambient365.us/service/managedservices',
+        title: 'Managed Services | Ambient365',
+        description: 'Ambient365 offers managed services in cloud productivity and hosting, software development and operations (DevOps) as well as business intelligence and data analytics.',	
+	}}
+    />
 			<div className="white">
 				{/* <h1>Managed Services</h1> */}
 				<div className="multiParagraph">
@@ -45,7 +55,7 @@ const managedservices = () => {
 				<ManagedModal />
 			</ModalProvider>
 
-			<h1>Ambient's core values for your enterprise needs</h1>
+			<h1>AmbientCARES: <br /> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h1>
 			<div className="icon-wrapper">
 				<div className="reacticon"> 
 				<img src={committed} alt="Committed" width={70} height={70}/> 
@@ -60,8 +70,8 @@ const managedservices = () => {
 				<span className="caption">Responsible</span>
 				</div>
 				<div className="reacticon"> 
-				<img src={empowering} alt="empowering" width={70} height={70}/> 
-				<span className="caption">empowering</span>
+				<img src={CoreEmpower} alt="empowering" width={70} height={70}/> 
+				<span className="caption">Empowering</span>
 				</div>
 				<div className="reacticon"> 
 				<img src={servanthearted} alt="Servant-hearted" width={70} height={70}/> 

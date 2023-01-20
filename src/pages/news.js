@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { graphql, Link } from "gatsby";
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 import "./event.css";
 
@@ -29,6 +30,14 @@ const news = ({ data }) => {
 	console.log("my data,", data);
 	return (
 		<Layout pageName="News">
+		<GatsbySeo
+      openGraph={{
+        type: 'website',
+        url: 'https://www.ambient365.us/news',
+        title: 'Ambient365 News',
+        description: 'Stay informed about the latest developments and trends in Microsoft365 for your business. Ambient365 offers updates on our services, upcoming events, and industry insights to help you stay ahead of the curve',
+	  }}
+    />
 			<>
 				<h2 className="grayheading">Our News</h2>
 				<div className="events">

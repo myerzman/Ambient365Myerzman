@@ -11,6 +11,7 @@ import { ScheduleButton } from "../components/schedulebutton";
 import ServiceButton from "../components/servicebutton";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 // import HomeCarousel from "./HomeCarousel";
 import HomeLayout from "../components/HomeLayout";
@@ -21,6 +22,14 @@ import Intranet from "../images/intranet.png";
 const IndexPage = () => {
 	return (
 		<HomeLayout>
+			<GatsbySeo
+      openGraph={{
+        type: 'website',
+        url: 'https://www.ambient365.us/',
+        title: 'Ambient365 | Microsoft Practice primary focus',
+        description: 'Elevate your business performance with our professional Microsoft365 services. With a decade of industry expertise, our team of experts offer tailored solutions for business process management, technology enablement, and more. Schedule a consultation to discuss your specific needs',
+	  }}
+    />
 			<div className="left-aligned">
 				{/* <h1>Next Gen Microsoft365 by Ambient 365!</h1>
 				<h2> Inspire, Involve, Innovate & Iterate with Integrity </h2>

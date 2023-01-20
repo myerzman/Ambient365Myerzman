@@ -13,6 +13,8 @@ import criticalbusinessprocess from "../../images/criticalbusinessprocess.png";
 import customapplication from "../../images/customapplication.png";
 import powerplatform from "../../images/powerplatform.png";
 import centerofexcellence from "../../images/centerofexcellence.png";
+import BPMCenter from "../../images/BPMCenter.png";
+import BPMCustomApp from "../../images/BPMCustomApp.png";
 
 //styles
 import "../../components/Modal.css";
@@ -61,7 +63,7 @@ export default function BusinessModal() {
 					setItem={setSelectedItem}
 					itemNumber={1}
 					description="Driving Innovation & Improvement"
-					image={centerofexcellence}
+					image={BPMCenter}
 				>
 					Center of Excellence
 				</MainButton>
@@ -88,7 +90,7 @@ export default function BusinessModal() {
 					setItem={setSelectedItem}
 					itemNumber={4}
 					description="Tailor-Made Software Applications"
-					image={customapplication}
+					image={BPMCustomApp}
 				>
 					Custom Applications
 				</MainButton>

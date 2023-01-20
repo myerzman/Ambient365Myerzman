@@ -16,6 +16,10 @@ import line from "../../images/line.png";
 import search from "../../images/search.png";
 import governance from "../../images/governance.png";
 import Intranet from "../../images/intranet.png";
+import TEGovernance from "../../images/TEGovernance.png";
+import TELOB from "../../images/TELOB.png";
+import TESearch from "../../images/TESearch.png";
+import TEContent from "../../images/TEContent.png";
 
 //styles
 import "../../components/Modal.css";
@@ -62,7 +66,7 @@ export default function TechnologyModal() {
 					setItem={setSelectedItem}
 					itemNumber={1}
 					description="Central Version Of Truth"
-					image={contents}
+					image={TEContent}
 				>
 					Content Management & Migrations
 				</MainButton>
@@ -71,7 +75,7 @@ export default function TechnologyModal() {
 					setItem={setSelectedItem}
 					itemNumber={2}
 					description="Connect The Places You Work"
-					image={line}
+					image={TELOB}
 				>
 					LOB Application Integration
 				</MainButton>
@@ -79,7 +83,7 @@ export default function TechnologyModal() {
 					setItem={setSelectedItem}
 					itemNumber={3}
 					description="Modern Search Experience"
-					image={search}
+					image={TESearch}
 				>
 					Search Strategy
 				</MainButton>
@@ -87,7 +91,7 @@ export default function TechnologyModal() {
 					setItem={setSelectedItem}
 					itemNumber={4}
 					description="Policy Based Rules"
-					image={governance}
+					image={TEGovernance}
 				>
 					Governance
 				</MainButton>

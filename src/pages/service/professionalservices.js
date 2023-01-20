@@ -8,6 +8,8 @@ import ScheduleButton from "../../components/schedulebutton";
 import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
+
 
 // import "../main.css";
 
@@ -16,7 +18,7 @@ import ProfessionalModal from "./ProfessionalModal";
 import { ModalProvider } from "react-modal-hook";
 
 //Icons
-import empowering from "../../images/empowering.png";
+import CoreEmpower from "../../images/CoreEmpower.png";
 import servanthearted from "../../images/servanthearted.png";
 import responsible from "../../images/responsible.png";
 import committed from "../../images/committed.png";
@@ -25,6 +27,14 @@ import aspirational from "../../images/aspirational.png";
 const professionalservices = () => {
 	return (
 		<Layout pageName="Professional Services">
+			<GatsbySeo
+      openGraph={{
+        type: 'website',
+        url: 'https://www.ambient365.us/service/professionalservices',
+        title: 'Professional Services | Ambient365',
+        description: 'Ambient365 takes an agnostic approach with assessment-led solutions to inspire the customer/employee experience while streamlining business processes, providing time to value. ',
+	  }}
+    />
 			<div className="white">
 				{/*<h1>Professional Services</h1>*/}
 				<div className="multiParagraph">
@@ -40,7 +50,7 @@ const professionalservices = () => {
 				<ProfessionalModal />
 			</ModalProvider>
 
-			<h1>Ambient's core values for your enterprise needs</h1>
+			<h1>AmbientCARES: <br /> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h1>
 			<div className="icon-wrapper">
 				<div className="reacticon">
 					<img
@@ -71,12 +81,12 @@ const professionalservices = () => {
 				</div>
 				<div className="reacticon">
 					<img
-						src={empowering}
+						src={CoreEmpower}
 						alt="empowering"
 						width={70}
 						height={70}
 					/>
-					<span className="caption">empowering</span>
+					<span className="caption">Empowering</span>
 				</div>
 				<div className="reacticon">
 					<img

@@ -4,9 +4,19 @@ import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 import { ScheduleButton } from "../components/schedulebutton";
 import ServiceButton from "../components/servicebutton";
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
+
 export default function service() {
 	return (
 		<Layout pageName="Service">
+			<GatsbySeo
+      openGraph={{
+        type: 'website',
+        url: 'https://www.ambient365.us/service',
+        title: 'Ambient365 Service',
+        description: 'Enhance the capabilities of your business with our specialized Microsoft365 services. From business process management to technology enablement, our tailor-made solutions are crafted to optimize employee engagement and productivity. Schedule a consultation with our experts to learn more.',
+	  }}
+    />
 			<section>
 				<h2 className="grayHeading">Our Services</h2>
 				<div className="item-wrapper tiles serviceTiles alt">

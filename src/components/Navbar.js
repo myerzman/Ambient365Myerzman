@@ -37,7 +37,7 @@ const Navbar = () => {
 						activeClassName="active-link"
 						onClick={() => setShow(false)}
 					>
-						Service
+						Our Services
 					</Link>
 					<Link
 						to="/team"
@@ -66,7 +66,7 @@ const Navbar = () => {
 				</div>
 				<div className="contact-link">
 					<Link to="/contact" onClick={() => setShow(false)}>
-						Contact
+						Schedule a Demo 
 					</Link>
 				</div>
 			</div>

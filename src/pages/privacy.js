@@ -1,9 +1,18 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 const contact = () => {
 	return (
 		<Layout pageName="Privacy Policy">
+			<GatsbySeo
+      openGraph={{
+        type: 'website',
+        url: 'https://www.ambient365.us/privacy',
+        title: 'Ambient365 Privacy Policy',
+        description: 'At Ambient365, we take your privacy seriously. Our privacy policy outlines how we collect, use, and protect your personal information. We are committed to ensuring the security and confidentiality of your data.'
+	  }}
+    />
 			<div className="text-content">
 				<h2>Who we are</h2>
 				<p>Our website address is: https://www.ambient365.us</p>
