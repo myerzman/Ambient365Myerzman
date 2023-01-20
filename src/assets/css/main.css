@@ -548,8 +548,9 @@ form > *:last-child {
 	flex: 3;
 	z-index: 30;
 	position: relative;
-	background: #fff;
+	background: transparent;
 	margin-right: 50px;
+
 }
 
 .show-links {
