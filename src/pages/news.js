@@ -33,7 +33,7 @@ const news = ({ data }) => {
 				<h2 className="grayheading">Our News</h2>
 				<div className="events">
 					{" "}
-					{data.allWpPost.edges.filter(post => post.node.categories.nodes[0].name !== "Webinar").reverse().map(({ node }) => {
+					{data.allWpPost.edges.filter(post => post.node.categories.nodes.some((x) => x.name === "Ambient365")).reverse().map(({ node }) => {
 						return (
 							<div className="eventWrapper" key={node.slug}>
 								<h2>{node.title}</h2>

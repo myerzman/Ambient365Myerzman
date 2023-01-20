@@ -53,6 +53,11 @@
 	opacity: .2;
 }
 
+.tile-wrapper .card:hover{
+	background: #666;
+	transition: .3s all;
+}
+
 .tile-wrapper .card:after {
 	/* content: "365";
 	position: absolute;
@@ -85,7 +90,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) rotate(20deg);
-	width: 100px;
+	width: 110px;
 }
 
 .tile-wrapper .card .contentBx {
@@ -114,6 +119,11 @@
 	color: #fff;
 	min-height: 85px;
 	font-size: 25px;
+}
+
+.tile-wrapper .card:hover .contentBx h3 {
+	min-height: 20px;
+	transition: 0.5s;
 }
 /* .tile-wrapper .card .contentBx h2 .small {
 	font-size: 0.7em;
