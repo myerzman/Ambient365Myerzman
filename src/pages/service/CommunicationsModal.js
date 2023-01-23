@@ -9,9 +9,9 @@ import MainButton from "../../components/mainbutton";
 import Intranet from "../../images/intranet.png";
 import Logo from "../../images/ambient-logo-trans.png";
 import modernintranet from "../../images/modernintranet.png";
-import employeeexperience from "../../images/employeeexperience.png";
-import portal from "../../images/portal.png";
-import frontlineworkers from "../../images/frontlineworkers.png";
+import memployeeexperience from "../../images/Employee Experience.png";
+import Collab from "../../images/Portal & Collaboration.png";
+import frontline from "../../images/Mobility to workers.png";
 import Close from "../../images/close.png";
 import CMEmployeeExperience from "../../images/CMEmployeeExperience.png";
 import CMPortal from "../../images/CMPortal.png";
@@ -128,7 +128,7 @@ export default function CommunicationsModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={memployeeexperience} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Employee Experience</h4>
@@ -153,7 +153,7 @@ export default function CommunicationsModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={Collab} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Portals & Collaboration</h4>
@@ -173,7 +173,7 @@ export default function CommunicationsModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={frontline} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Mobility to workers</h4>

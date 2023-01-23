@@ -9,11 +9,11 @@ import Close from "../../images/close.png";
 
 // images
 import Intranet from "../../images/intranet.png";
-import analysis from "../../images/analysis.png";
-import design from "../../images/design.png";
-import mentoring from "../../images/mentoring.png";
-import project from "../../images/project.png";
-import assessment from "../../images/assessment.png";
+import MAnalysis from "../../images/MAnalysis.png";
+import MDesign from "../../images/MDesign.png";
+import MMentoring from "../../images/MMentoring.png";
+import ProjectManagement from "../../images/project management.png";
+import MAssessment from "../../images/MAssessment.png";
 import PSAssessment from "../../images/PSAssessment.png";
 import PSAnalysis from "../../images/PSAnalysis.png";
 import PSDesign from "../../images/PSDesign.png";
@@ -117,7 +117,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={MAssessment} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Assessment-Led Solutions</h4>
@@ -140,7 +140,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={MAnalysis} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Analysis: People/Process/Technology</h4>
@@ -165,7 +165,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={MDesign} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Design & Architecture</h4>
@@ -191,7 +191,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={MMentoring} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Mentoring Workshop</h4>
@@ -219,7 +219,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={ProjectManagement} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Project Management</h4>

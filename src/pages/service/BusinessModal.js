@@ -10,9 +10,13 @@ import Intranet from "../../images/intranet.png";
 import Logo from "../../images/ambient-logo-trans.png";
 import lifecycle from "../../images/lifecycle.png";
 import criticalbusinessprocess from "../../images/criticalbusinessprocess.png";
-import customapplication from "../../images/customapplication.png";
+import Lifecycle from "../../images/Lifecycle Management.png";
+import CBP from "../../images/Critical.png";
+import Custom from "../../images/Custom Application.png";
 import powerplatform from "../../images/powerplatform.png";
-import centerofexcellence from "../../images/centerofexcellence.png";
+import Power from "../../images/Power Platform.png";
+import Center from "../../images/Center of Excellence.png";
+
 import BPMCenter from "../../images/BPMCenter.png";
 import BPMCustomApp from "../../images/BPMCustomApp.png";
 
@@ -112,7 +116,7 @@ export default function BusinessModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={Power} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Power Platform</h4>
@@ -134,7 +138,7 @@ export default function BusinessModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={Center} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Center of Excellence</h4>
@@ -155,7 +159,7 @@ export default function BusinessModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={Lifecycle} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Lifecycle Management</h4>
@@ -183,7 +187,7 @@ export default function BusinessModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={CBP} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Critical Business Processes</h4>
@@ -211,7 +215,7 @@ export default function BusinessModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={Custom} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Custom Applications</h4>

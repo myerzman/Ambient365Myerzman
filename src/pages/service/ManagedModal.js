@@ -7,12 +7,14 @@ import MainButton from "../../components/mainbutton";
 
 // images
 import Intranet from "../../images/intranet.png";
-import Logo from "../../images/ambient-logo-trans.png";
+import BI from "../../images/Business Intelligence.png";
 import MSAnalytics from "../../images/MSAnalytics.png";
 import MSHealth from "../../images/MSHealth.png";
 import MSSDLC from "../../images/MSSDLC.png";
 import MSCloud from "../../images/MSCloud.png";
-import centerofexcellence from "../../images/centerofexcellence.png";
+import HealthCheck from "../../images/Health Check service.png";
+import CloudProductivity from "../../images/Cloud Productivity.png";
+import SDLC from "../../images/SDLC.png";
 
 //styles
 import "../../components/Modal.css";
@@ -103,7 +105,7 @@ export default function ManagedModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={HealthCheck} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Health Check Services & Support</h4>
@@ -117,7 +119,7 @@ export default function ManagedModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={BI} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Analytics & Business Intelligence</h4>
@@ -131,7 +133,7 @@ export default function ManagedModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={CloudProductivity} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Cloud Productivity & Hosting</h4>
@@ -145,7 +147,7 @@ export default function ManagedModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={SDLC} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>SDLC & DevOps</h4>
