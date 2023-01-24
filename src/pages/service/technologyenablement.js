@@ -52,7 +52,7 @@ const technologyenablement = () => {
 				<TechnologyModal />
 			</ModalProvider>
 
-			<h1>AmbientCARES: <br /> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h1>
+<h1>AmbientCARES: <br /> <h2 className="lowerHeading"> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h2></h1>
 			<div className="icon-wrapper">
 				<div className="reacticon"> 
 				<img src={committed} alt="Committed" width={70} height={70}/> 
