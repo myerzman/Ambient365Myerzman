@@ -34,7 +34,7 @@ const IndexPage = () => {
       openGraph={{
         type: 'website',
         url: 'https://www.ambient365.us/',
-        title: 'Ambient365 | Microsoft Practice primary focus',
+        title: 'Enterprise Cloud Solutions powered by the Microsoft Cloud | Ambient365',
         description: 'Elevate your business performance with our professional Microsoft365 services. With a decade of industry expertise, our team of experts offer tailored solutions for business process management, technology enablement, and more. Schedule a consultation to discuss your specific needs',
 	  }}
     />
