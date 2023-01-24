@@ -5,7 +5,6 @@ module.exports = {
 		siteUrl: `https://www.ambient365.us`,
 	},
 	plugins: [
-		
 		{
       resolve: 'gatsby-plugin-next-seo',
       options: {
@@ -22,7 +21,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "GTM-KJFPNVL", // Google Analytics / GA
+          "G-R8PJWKKHM8", // Google Analytics / GA
           // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
           // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
         ],
@@ -108,13 +107,6 @@ module.exports = {
 					},
 				},
 			},
-		},
-		{
-			resolve: 'gatsby-plugin-manifest',
-			options: {
-			// Generate PWA icons and a favicon
-			icon: 'src/images/favicon-32x32.png',
-			}
 		},
 		{
 			resolve: `gatsby-omni-font-loader`,
