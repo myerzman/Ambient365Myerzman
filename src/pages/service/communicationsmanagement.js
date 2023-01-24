@@ -107,11 +107,6 @@ const communicationsmanagement = () => {
 				</div>
 			</div>
 
-			<h2 className="lowerHeading"> Meet Our Ambient Consultants! </h2>
-			<Link to="https://meetings.hubspot.com/drotolo">
-				<ScheduleButton> Schedule a Meeting </ScheduleButton>
-			</Link>
-
 			<Container>
 				<h4> Schedule a Demo </h4>
 				<HubspotForm

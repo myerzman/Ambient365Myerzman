@@ -26,7 +26,7 @@ export default function HomeCarousel() {
 				showArrows={false}
 				showStatus={false}
 				showThumbs={false}
-				interval={8000}
+				interval={6000}
 			>
 				{/* <div> */}
 					{/* <div className="slider-content">
@@ -44,6 +44,22 @@ export default function HomeCarousel() {
 					<div className="darkness"></div>
 					<img src={Hero2} alt="OurStory" />
 				</div>  */}
+			 <div>
+						<div className="slider-content">
+						<h1>Commuication Management</h1>
+						<p>
+						At Ambient365 we understand the driving force of any
+						business is its people. Our mentoring and best practices
+						approach to people, process, and technology allows an
+						organization to see their investment in a digital
+						platform that helps organizations create a thriving
+						culture within an employee experience platform.{" "}
+						</p>
+						</div>
+					<div className="darkness"></div>
+					<img src={Hero2} alt="CommuicationManagement" />
+				</div> 
+
 			 <div>
 						<div className="slider-content">
 						<h1>Power Platform</h1>
@@ -64,22 +80,7 @@ export default function HomeCarousel() {
 				{/* <div>
 					<img src={Intranet} alt="Intranet" />{" "}
 				</div> */}
-				 <div>
-						<div className="slider-content">
-						<h1>Commuication Management</h1>
-						<p>
-						At Ambient365 we understand the driving force of any
-						business is its people. Our mentoring and best practices
-						approach to people, process, and technology allows an
-						organization to see their investment in a digital
-						platform that helps organizations create a thriving
-						culture within an employee experience platform.{" "}
-						</p>
-						</div>
-					<div className="darkness"></div>
-					<img src={Hero2} alt="CommuicationManagement" />
-				</div> 
-
+				
 				
 			</Carousel>
 		</>

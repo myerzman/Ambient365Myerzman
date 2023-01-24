@@ -45,7 +45,7 @@ const IndexPage = () => {
 					<ScheduleButton>Meet Our Consultants</ScheduleButton>
 				</Link> */}
 			</div>
-			<h2>About Us</h2>
+			<div className="box" />
 				<div className="events">
 				<p>Ambient365 is our Microsoft Cloud Solutions Practice Area. Established in 2012, Ambient Studios is a technology professional services firm that was founded with the desire to nurture engagements that are client-focused, innovative, and honest.</p>
 				<p>Focused on the customer journey, Ambient365 inspires the customer/employee experience while streamlining business processes, providing time to value. We leverage Microsoft Cloud Services to deliver innovative technology solutions, transformative workplace automations, and genuine client-focused managed services to drive business productivity and efficiency.</p>
@@ -151,7 +151,7 @@ const IndexPage = () => {
 					</h2>
 
 					<br />
-					<Link to="https://meetings.hubspot.com/drotolo">
+					<Link to="/contact">
 						<ScheduleButton> Schedule a Meeting </ScheduleButton>
 					</Link>
 					</div>

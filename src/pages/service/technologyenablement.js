@@ -74,12 +74,7 @@ const technologyenablement = () => {
 				<img src={servanthearted} alt="Servant-hearted" width={70} height={70}/> 
 				<span className="caption">Servant-hearted</span>
 				</div>
-			</div>
-
-			<h2 className="lowerHeading"> Meet Our Ambient Consultants! </h2>
-			<Link to="https://meetings.hubspot.com/drotolo">
-				<ScheduleButton> Schedule a Meeting </ScheduleButton>
-			</Link>
+			</div>			
 			<Container>
 				<h4> Schedule a Demo </h4>
 				<HubspotForm
