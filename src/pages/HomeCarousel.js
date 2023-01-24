@@ -30,7 +30,7 @@ export default function HomeCarousel() {
 			>
 				<div>
 					<div className="slider-content">
-						<h1>Welcome to Ambient 365</h1>
+						<h1>Welcome to Ambient365</h1>
 						<p>
 							Ambient365 is a Microsoft Practice primary focus.
 							Focused on the customer journey, Ambient365 inspires
