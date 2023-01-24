@@ -69,14 +69,10 @@ const footer = () => {
 					</p>
 				</div>
 			<div>
+				
 				<div className="footerlogo">
 					<Link to="/">
-						<img src={Ambient365Logoblack} alt="Ambient365" className="logo" />
-					</Link>
-				</div>
-				<div className="footerlogo">
-					<Link to="/">
-						<img src={AmbientStudiosLogoWhite} alt="AmbientStudios" className="logo" />
+						<img src={AmbientStudiosLogoWhite} alt="AmbientStudis" className="logo" />
 					</Link>
 				</div>
 			</div>
