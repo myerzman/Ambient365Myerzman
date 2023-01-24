@@ -28,9 +28,9 @@ export default function HomeCarousel() {
 				showThumbs={false}
 				interval={8000}
 			>
-				{/* <div> */}
-					{/* <div className="slider-content">
-						<h1>Welcome to Ambient 365</h1>
+				<div>
+					<div className="slider-content">
+						<h1>Welcome to Ambient365</h1>
 						<p>
 							Ambient365 is a Microsoft Practice primary focus.
 							Focused on the customer journey, Ambient365 inspires
