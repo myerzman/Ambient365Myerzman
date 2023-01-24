@@ -28,8 +28,8 @@ export default function HomeCarousel() {
 				showThumbs={false}
 				interval={8000}
 			>
-				<div>
-					<div className="slider-content">
+				{/* <div> */}
+					{/* <div className="slider-content">
 						<h1>Welcome to Ambient 365</h1>
 						<p>
 							Ambient365 is a Microsoft Practice primary focus.
@@ -43,7 +43,7 @@ export default function HomeCarousel() {
 					</div>
 					<div className="darkness"></div>
 					<img src={Hero2} alt="OurStory" />
-				</div>
+				</div> */}
 				<div>
 					<div className="slider-content">
 						<h1>Power Platform</h1>

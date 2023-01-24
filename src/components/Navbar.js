@@ -30,7 +30,15 @@ const Navbar = () => {
 						onClick={() => setShow(false)}
 					>
 						home
-					</Link>
+					 </Link>			{/*
+					<Link
+						to="/about"
+						className="nav-link"
+						activeClassName="active-link"
+						onClick={() => setShow(false)}
+					>
+						About Us
+					</Link> */}
 					<Link
 						to="/service"
 						className="nav-link"
