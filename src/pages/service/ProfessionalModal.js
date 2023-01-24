@@ -12,7 +12,7 @@ import Intranet from "../../images/intranet.png";
 import MAnalysis from "../../images/MAnalysis.png";
 import MDesign from "../../images/MDesign.png";
 import MMentoring from "../../images/MMentoring.png";
-import ProjectManagement from "../../images/project management.png";
+import ProjectManagement from "../../images/Project_Management.png";
 import MAssessment from "../../images/MAssessment.png";
 import PSAssessment from "../../images/PSAssessment.png";
 import PSAnalysis from "../../images/PSAnalysis.png";
