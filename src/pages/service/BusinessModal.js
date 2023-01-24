@@ -10,12 +10,12 @@ import Intranet from "../../images/intranet.png";
 import Logo from "../../images/ambient-logo-trans.png";
 import lifecycle from "../../images/lifecycle.png";
 import criticalbusinessprocess from "../../images/criticalbusinessprocess.png";
-import Lifecycle from "../../images/Lifecycle Management.png";
+import Lifecycle from "../../images/LifecycleManagement.png";
 import CBP from "../../images/Critical.png";
 import Custom from "../../images/Custom Application.png";
 import powerplatform from "../../images/powerplatform.png";
-import Power from "../../images/Power Platform.png";
-import Center from "../../images/Center of Excellence.png";
+import Power from "../../images/Power_Platform.png";
+import Center from "../../images/Center_of_Excellence.png";
 
 import BPMCenter from "../../images/BPMCenter.png";
 import BPMCustomApp from "../../images/BPMCustomApp.png";

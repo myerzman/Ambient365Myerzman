@@ -7,13 +7,13 @@ import MainButton from "../../components/mainbutton";
 
 // images
 import Intranet from "../../images/intranet.png";
-import BI from "../../images/Business Intelligence.png";
+import BI from "../../images/BusinessIntelligence.png";
 import MSAnalytics from "../../images/MSAnalytics.png";
 import MSHealth from "../../images/MSHealth.png";
 import MSSDLC from "../../images/MSSDLC.png";
 import MSCloud from "../../images/MSCloud.png";
 import HealthCheck from "../../images/Health Check service.png";
-import CloudProductivity from "../../images/Cloud Productivity.png";
+import CloudProductivity from "../../images/CloudProductivity.png";
 import SDLC from "../../images/SDLC.png";
 
 //styles
