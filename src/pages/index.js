@@ -76,7 +76,7 @@ const IndexPage = () => {
 			</div>
 			<div className="box" />
 
-			<ModalProvider>
+			{/* <ModalProvider>
 				<div>
 					<h2>About Us</h2>
 				<div className="events">
@@ -127,7 +127,7 @@ const IndexPage = () => {
 							</ServiceButton>
 						</Link>
 					</div> */}
-				</div>
+				{/* </div>
 				<hr />
 				<div className="item-wrapper">
 					<h2 className="lowerHeading">
@@ -139,10 +139,22 @@ const IndexPage = () => {
 					<Link to="https://meetings.hubspot.com/drotolo">
 						<ScheduleButton> Schedule a Meeting </ScheduleButton>
 					</Link>
-				</div>
+				</div> */}
 
 				{/* <Images /> */}
-			</ModalProvider>
+			{/* </ModalProvider> */}
+			<div className="item-wrapper">
+				<hr />
+			<h2 className="lowerHeading">
+						{" "}
+						Meet Our Ambient Consultants!{" "}
+					</h2>
+
+					<br />
+					<Link to="https://meetings.hubspot.com/drotolo">
+						<ScheduleButton> Schedule a Meeting </ScheduleButton>
+					</Link>
+					</div>
 		</HomeLayout>
 	);
 };

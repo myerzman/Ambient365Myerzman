@@ -273,6 +273,11 @@ button.block {
 	width: 100%;
 }
 
+
+#home-container h1 {
+	margin-top: 40px;
+}
+
 /* Basic Classes */
 .alert {
 	padding: 0.375rem 0.75rem;
@@ -532,6 +537,7 @@ form > *:last-child {
 	#home-container .carousel .control-dots {
 		bottom: 10px !important;
 	}
+
 	body .colorbackgroundfont {
 		color: #000;
 	}

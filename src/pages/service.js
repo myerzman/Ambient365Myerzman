@@ -13,7 +13,7 @@ export default function service() {
       openGraph={{
         type: 'website',
         url: 'https://www.ambient365.us/service',
-        title: 'Ambient365 Service',
+        title: 'Our Services | Ambient365',
         description: 'Enhance the capabilities of your business with our specialized Microsoft365 services. From business process management to technology enablement, our tailor-made solutions are crafted to optimize employee engagement and productivity. Schedule a consultation with our experts to learn more.',
 	  }}
     />

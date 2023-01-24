@@ -29,7 +29,7 @@ const communicationsmanagement = () => {
       openGraph={{
         type: 'website',
         url: 'https://www.ambient365.us/service/communicationsmanagement',
-        title: 'Communications Management | Ambient365',
+        title: 'Communications Management | Our Services | Ambient365',
         description: 'Ambient365 empowers organization and its people, process, and technology to see their investment in a digital platform & help organization to create a thriving culture within an employee experience platform.',	
 	}}
     />
