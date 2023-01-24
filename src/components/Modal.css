@@ -42,7 +42,7 @@
 	inset: 50px !important;
 	padding: 30px !important;
 	height: 500px;
-	overflow: visible;
+	overflow: visible !important;
 
 }
 

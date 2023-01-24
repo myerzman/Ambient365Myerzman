@@ -21,7 +21,7 @@
 	width: 320px;
 	height: 450px;
 	height: 300px;
-	background: #232323;
+	background: #bebebe;
 	border-radius: 20px;
 	overflow: hidden;
 	margin: 10px;
@@ -51,6 +51,11 @@
 	background-position: 55% 11%;
 	background-size: 78%;
 	opacity: .2;
+}
+
+.tile-wrapper .card:hover{
+	background: #666;
+	transition: .3s all;
 }
 
 .tile-wrapper .card:after {
@@ -85,7 +90,7 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) rotate(20deg);
-	width: 100px;
+	width: 110px;
 }
 
 .tile-wrapper .card .contentBx {
@@ -114,6 +119,11 @@
 	color: #fff;
 	min-height: 85px;
 	font-size: 25px;
+}
+
+.tile-wrapper .card:hover .contentBx h3 {
+	min-height: 20px;
+	transition: 0.5s;
 }
 /* .tile-wrapper .card .contentBx h2 .small {
 	font-size: 0.7em;

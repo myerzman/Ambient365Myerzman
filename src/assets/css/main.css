@@ -110,7 +110,11 @@ html body {
 	line-height: 1.75;
 }
 
-p {
+ body a{
+	color: var(--primary-red);
+}
+
+.slide p {
 	margin: 0;
 	margin-bottom: 1rem;
 	max-width: 40em;
@@ -550,8 +554,9 @@ form > *:last-child {
 	flex: 3;
 	z-index: 30;
 	position: relative;
-	background: #fff;
+	background: transparent;
 	margin-right: 50px;
+
 }
 
 .show-links {
@@ -1212,7 +1217,7 @@ body .contact-link a:hover {
 	margin-bottom: 1rem;
 	vertical-align: top;
 	display: inline-block;
-	size: 10rem;
+	size: 15rem;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1228,6 +1233,7 @@ body .contact-link a:hover {
 	text-align: center;
 	margin: 50px 0px 30px;
 	overflow-x: hidden;
+	display: flex;
 }
 
 .box {

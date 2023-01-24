@@ -56,7 +56,9 @@ const communicationsmanagement = () => {
 				<CommunicationsModal />
 			</ModalProvider>
 
+
 			<h1>AmbientCARES: <br /> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h1>
+
 			<div className="icon-wrapper">
 				<div className="reacticon">
 					<img

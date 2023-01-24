@@ -14,7 +14,7 @@ export const pageQuery = graphql`
 					content
 					excerpt
 					slug
-					customDate: date(formatString: "MMMM mm, yyyy")
+					customDate: date(formatString: "MMMM DD, yyyy")
 					categories {
 						nodes {
 							name
@@ -42,7 +42,7 @@ const event = ({ data }) => {
 				<h2 className="grayheading">Our Events</h2>
 				<div className="events">
 					{" "}
-					{data.allWpPost.edges.filter(post => post.node.categories.nodes[0].name === "Webinar").map(({ node }) => {
+					{data.allWpPost.edges.filter(post => post.node.categories.nodes[0].name === "Webinar").reverse().map(({ node }) => {
 						return (
 							<div className="eventWrapper" key={node.slug}>
 								<h2>{node.title}</h2>
