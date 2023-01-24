@@ -7,6 +7,7 @@ import ScheduleButton from "../../components/schedulebutton";
 import HubspotForm from "react-hubspot-form";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
+import { GatsbySeo } from 'gatsby-plugin-next-seo';
 
 // import "../main.css";
 
@@ -15,7 +16,7 @@ import CommunicationsModal from "./CommunicationsModal";
 import { ModalProvider } from "react-modal-hook";
 
 //Icons
-import empowering from "../../images/empowering.png";
+import CoreEmpower from "../../images/CoreEmpower.png";
 import servanthearted from "../../images/servanthearted.png";
 import responsible from "../../images/responsible.png";
 import committed from "../../images/committed.png";
@@ -24,6 +25,15 @@ import aspirational from "../../images/aspirational.png";
 const communicationsmanagement = () => {
 	return (
 		<Layout pageName="Communications Management">
+			<GatsbySeo
+      openGraph={{
+        type: 'website',
+        url: 'https://www.ambient365.us/service/communicationsmanagement',
+        title: 'Communications Management | Ambient365',
+        description: 'Ambient365 empowers organization and its people, process, and technology to see their investment in a digital platform & help organization to create a thriving culture within an employee experience platform.',	
+	}}
+    />
+
 			<div className="white">
 				{/* <h1>Communications Management</h1>*/}
 				<div className="multiParagraph">
@@ -46,7 +56,9 @@ const communicationsmanagement = () => {
 				<CommunicationsModal />
 			</ModalProvider>
 
-			<h1>Ambient's core values <br />for your enterprise needs</h1>
+
+			<h1>AmbientCARES: <br /> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h1>
+
 			<div className="icon-wrapper">
 				<div className="reacticon">
 					<img
@@ -77,12 +89,12 @@ const communicationsmanagement = () => {
 				</div>
 				<div className="reacticon">
 					<img
-						src={empowering}
+						src={CoreEmpower}
 						alt="empowering"
 						width={70}
 						height={70}
 					/>
-					<span className="caption">empowering</span>
+					<span className="caption">Empowering</span>
 				</div>
 				<div className="reacticon">
 					<img

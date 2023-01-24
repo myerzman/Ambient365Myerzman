@@ -6,15 +6,12 @@ function about() {
 		<Layout pageName="About">
 
 		<GatsbySeo
-      title='Ambient About Page'
-      description='A short description goes here.'
-			metaTags={[{
-				property: 'dc:creator',
-				content: 'Jane Doe'
-			}, {
-				name: 'application-name',
-				content: 'GatsbySeo'
-			}]}
+		 openGraph={{
+        type: 'website',
+        url: 'https://www.ambient365.us/about',
+      title: 'About Us | Ambient365',
+      description:'Discover the depth of expertise at Ambient365, your trusted provider of Microsoft365 services for Southern California business. With over a decade of experience, our team offers tailored solutions for professional services, communications management, and more. Explore how our services can elevate your companys performance.',
+		 }}
     />
 			<div className="events">
 				<p>Ambient365 is a Microsoft Practice primary focus. Established in 2012, Ambient Studios is a Cloud Solutions Provider and technology professional services firm that was founded with the desire to nurture engagements that are client-focused, innovative, and honest.</p>

@@ -9,11 +9,16 @@ import Close from "../../images/close.png";
 
 // images
 import Intranet from "../../images/intranet.png";
-import analysis from "../../images/analysis.png";
-import design from "../../images/design.png";
-import mentoring from "../../images/mentoring.png";
-import project from "../../images/project.png";
-import assessment from "../../images/assessment.png";
+import MAnalysis from "../../images/MAnalysis.png";
+import MDesign from "../../images/MDesign.png";
+import MMentoring from "../../images/MMentoring.png";
+import ProjectManagement from "../../images/Project_Management.png";
+import MAssessment from "../../images/MAssessment.png";
+import PSAssessment from "../../images/PSAssessment.png";
+import PSAnalysis from "../../images/PSAnalysis.png";
+import PSDesign from "../../images/PSDesign.png";
+import PSProjectManagement from "../../images/PSProjectManagement.png";
+import PSMentoring from "../../images/PSMentoring.png";
 
 //styles
 import "../../components/Modal.css";
@@ -53,7 +58,7 @@ export default function ProfessionalModal() {
 					setItem={setSelectedItem}
 					itemNumber={0}
 					description="Agnostic Approach Recommendations"
-					image={assessment}
+					image={PSAssessment}
 				>
 					Assessment-Led Solutions
 				</MainButton>
@@ -62,7 +67,7 @@ export default function ProfessionalModal() {
 					setItem={setSelectedItem}
 					itemNumber={1}
 					description="Allowing For Continuous Improvements"
-					image={analysis}
+					image={PSAnalysis}
 				>
 					Analysis
 				</MainButton>
@@ -71,7 +76,7 @@ export default function ProfessionalModal() {
 					setItem={setSelectedItem}
 					itemNumber={2}
 					description="Promoting Scalability & Structure"
-					image={design}
+					image={PSDesign}
 				>
 					Design & Architecture
 				</MainButton>
@@ -80,7 +85,7 @@ export default function ProfessionalModal() {
 					setItem={setSelectedItem}
 					itemNumber={3}
 					description="Education & Best Practices"
-					image={mentoring}
+					image={PSMentoring}
 				>
 					Mentoring Workshops
 				</MainButton>
@@ -89,7 +94,7 @@ export default function ProfessionalModal() {
 					setItem={setSelectedItem}
 					itemNumber={4}
 					description="Nurturing Customer Experience"
-					image={project}
+					image={PSProjectManagement}
 				>
 					Project Management
 				</MainButton>
@@ -112,7 +117,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={MAssessment} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Assessment-Led Solutions</h4>
@@ -135,7 +140,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={MAnalysis} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Analysis: People/Process/Technology</h4>
@@ -160,7 +165,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={MDesign} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Design & Architecture</h4>
@@ -186,7 +191,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={MMentoring} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Mentoring Workshop</h4>
@@ -214,7 +219,7 @@ export default function ProfessionalModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={ProjectManagement} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Project Management</h4>

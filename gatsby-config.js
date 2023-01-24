@@ -5,6 +5,7 @@ module.exports = {
 		siteUrl: `https://www.ambient365.us`,
 	},
 	plugins: [
+		
 		{
       resolve: 'gatsby-plugin-next-seo',
       options: {
@@ -107,6 +108,13 @@ module.exports = {
 					},
 				},
 			},
+		},
+		{
+			resolve: 'gatsby-plugin-manifest',
+			options: {
+			// Generate PWA icons and a favicon
+			icon: 'src/images/favicon-32x32.png',
+			}
 		},
 		{
 			resolve: `gatsby-omni-font-loader`,

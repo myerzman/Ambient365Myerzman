@@ -464,6 +464,11 @@ form > *:last-child {
 	.nav .nav-link {
 		border-bottom: 1px solid #bb4746;
 	}
+	.nav-header img {
+	width: 200px;
+	margin-left: -10px;
+	margin-bottom: -40px;
+	}
 	body .item-wrapper.tiles.serviceTiles a {
 		flex-basis: 90%;
 		min-height: 100px;
@@ -532,6 +537,7 @@ form > *:last-child {
 	}
 	body .white .multiParagraph {
 		background: #0682b7f0;
+		text-align: center;
 	}
 }
 
@@ -1226,6 +1232,7 @@ body .contact-link a:hover {
 .icon-wrapper {
 	text-align: center;
 	margin: 50px 0px 30px;
+	overflow-x: hidden;
 	display: flex;
 }
 

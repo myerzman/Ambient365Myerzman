@@ -22,6 +22,7 @@ import servanthearted from "../../images/servanthearted.png";
 import responsible from "../../images/responsible.png";
 import committed from "../../images/committed.png";
 import aspirational from "../../images/aspirational.png";
+import CoreEmpower from "../../images/CoreEmpower.png"
 
 const businessprocessmanagement = () => {
 	return (
@@ -29,11 +30,11 @@ const businessprocessmanagement = () => {
 		<GatsbySeo
       openGraph={{
         type: 'website',
-        url: 'https://www.example.com/page',
-        title: 'Open Graph Title',
-        description: 'Open Graph Description',
-       
-      }}
+        url: 'https://www.ambient365.us/service/businessprocessmanagement',
+        title: 'Business Process Management | Ambient365',
+        description: 'Ambient365 takes business process management to enhance efficiency and productivity, reduce costs and minimize errors and risk - thereby optimizes employee experience for our clients.',
+		
+	}}
     />
 			<div className="white">
 				{/*<h1>Business Prodcess Management</h1>*/}
@@ -52,7 +53,7 @@ const businessprocessmanagement = () => {
 				<BusinessModal />
 			</ModalProvider>
 
-			<h1>Ambient's core values for your enterprise needs</h1>
+			<h1>AmbientCARES: <br /> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h1>
 			<div className="icon-wrapper">
 				<div className="reacticon"> 
 				<img src={committed} alt="Committed" width={70} height={70}/> 
@@ -67,8 +68,8 @@ const businessprocessmanagement = () => {
 				<span className="caption">Responsible</span>
 				</div>
 				<div className="reacticon"> 
-				<img src={empowering} alt="empowering" width={70} height={70}/> 
-				<span className="caption">empowering</span>
+				<img src={CoreEmpower} alt="empowering" width={70} height={70}/> 
+				<span className="caption">Empowering</span>
 				</div>
 				<div className="reacticon"> 
 				<img src={servanthearted} alt="Servant-hearted" width={70} height={70}/> 

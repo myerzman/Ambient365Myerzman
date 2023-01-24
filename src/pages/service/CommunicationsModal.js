@@ -9,11 +9,14 @@ import MainButton from "../../components/mainbutton";
 import Intranet from "../../images/intranet.png";
 import Logo from "../../images/ambient-logo-trans.png";
 import modernintranet from "../../images/modernintranet.png";
-import employeeexperience from "../../images/employeeexperience.png";
-import portal from "../../images/portal.png";
-import frontlineworkers from "../../images/frontlineworkers.png";
+import memployeeexperience from "../../images/Employee Experience.png";
+import Collab from "../../images/Portal & Collaboration.png";
+import frontline from "../../images/Mobility to workers.png";
 import Close from "../../images/close.png";
-
+import CMEmployeeExperience from "../../images/CMEmployeeExperience.png";
+import CMPortal from "../../images/CMPortal.png";
+import CMMobility from "../../images/CMMobility.png";
+import CMIntranet from "../../images/CMIntranet.png";
 //styles
 import "../../components/Modal.css";
 
@@ -52,7 +55,7 @@ export default function CommunicationsModal() {
 					setItem={setSelectedItem}
 					itemNumber={0}
 					description="Allowing Time To Value"
-					image={modernintranet}
+					image={CMIntranet}
 				>
 					Modern Intranet
 				</MainButton>
@@ -60,7 +63,7 @@ export default function CommunicationsModal() {
 					setItem={setSelectedItem}
 					itemNumber={1}
 					description="Creating A Thriving Culture"
-					image={employeeexperience}
+					image={CMEmployeeExperience}
 				>
 					Employee Experience
 				</MainButton>
@@ -68,7 +71,7 @@ export default function CommunicationsModal() {
 					setItem={setSelectedItem}
 					itemNumber={2}
 					description="Reducing Redundancy"
-					image={portal}
+					image={CMPortal}
 				>
 					Portals & Collaboration
 				</MainButton>
@@ -76,7 +79,7 @@ export default function CommunicationsModal() {
 					setItem={setSelectedItem}
 					itemNumber={3}
 					description="Reaching Front Line Workers"
-					image={frontlineworkers}
+					image={CMMobility}
 				>
 					Mobility to workers
 				</MainButton>
@@ -125,7 +128,7 @@ export default function CommunicationsModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={memployeeexperience} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Employee Experience</h4>
@@ -150,7 +153,7 @@ export default function CommunicationsModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={Collab} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Portals & Collaboration</h4>
@@ -170,7 +173,7 @@ export default function CommunicationsModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={frontline} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Mobility to workers</h4>

@@ -4,7 +4,7 @@ import "./mainbutton.css";
 import { Link } from "gatsby";
 
 //image
-import Ambient365Logowhite from "../images/Ambient365Logo-white.png";
+import AmbientStudiosLogoWhite from "../images/AmbientStudiosLogoWhite.png";
 import Ambient365Logoblack from "../images/Ambient365Logo-black.png";
 
 const footer = () => {
@@ -35,6 +35,11 @@ const footer = () => {
 					Our Events
 					</Link>
 					</p>
+					<p> 
+					<Link to="/news">
+					Our News
+					</Link>
+					</p>
 
 					{/* <Link>
 						<p> Our Insights </p>
@@ -48,13 +53,13 @@ const footer = () => {
 					</p>
 					<p>
 						{" "}
-						135 S State College Blvd<br /> Suite 200
+						135 S State College Blvd Suite 200
 					</p>
 					<p>
 						{" "}
 						Brea, CA 92821
 					</p>
-					<p> Email: info@ambient365.us </p>
+					<p> Email: <Link to="mailto:contact@ambient365.us">contact@ambient365.us</Link>  </p>
 					<p> Tel: 714.987.6311 </p>
 					<p>
 					<Link to="/contact">
@@ -63,16 +68,19 @@ const footer = () => {
 					</Link>
 					</p>
 				</div>
+			<div>
+				
 				<div className="footerlogo">
 					<Link to="/">
-						<img src={Ambient365Logoblack} alt="Ambient365" className="logo" />
+						<img src={AmbientStudiosLogoWhite} alt="AmbientStudis" className="logo" />
 					</Link>
 				</div>
+			</div>
 			</div>
 			<div className="fullWidth">
 				<p>
 					&copy; {new Date().getFullYear()}{" "}
-					<Link to="mailto:info@ambient365.us"><span>Ambient365.us</span></Link> All rights
+					<Link to="https://www.ambientstudios.com/"><span>Ambient Studios LLC</span></Link> All rights
 					reserved. <Link to="/privacy">Privacy Policy</Link>
 			</p>
 		</div>

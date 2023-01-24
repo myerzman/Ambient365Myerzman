@@ -9,13 +9,17 @@ import Close from "../../images/close.png";
 
 // images
 import microsoft from "../../images/microsoft.png";
-import Logo from "../../images/ambient-logo-trans.png";
-import contents from "../../images/contents.png";
-import employeeexperience from "../../images/employeeexperience.png";
-import line from "../../images/line.png";
-import search from "../../images/search.png";
+import MGovernance from "../../images/MGovernance.png";
+import contentmanagement from "../../images/content management.png";
+import M365 from "../../images/M365.png";
+import LOB from "../../images/LOB.png";
+import searchStrategy from "../../images/search Strategy.png";
 import governance from "../../images/governance.png";
 import Intranet from "../../images/intranet.png";
+import TEGovernance from "../../images/TEGovernance.png";
+import TELOB from "../../images/TELOB.png";
+import TESearch from "../../images/TESearch.png";
+import TEContent from "../../images/TEContent.png";
 
 //styles
 import "../../components/Modal.css";
@@ -62,7 +66,7 @@ export default function TechnologyModal() {
 					setItem={setSelectedItem}
 					itemNumber={1}
 					description="Central Version Of Truth"
-					image={contents}
+					image={TEContent}
 				>
 					Content Management & Migrations
 				</MainButton>
@@ -71,7 +75,7 @@ export default function TechnologyModal() {
 					setItem={setSelectedItem}
 					itemNumber={2}
 					description="Connect The Places You Work"
-					image={line}
+					image={TELOB}
 				>
 					LOB Application Integration
 				</MainButton>
@@ -79,7 +83,7 @@ export default function TechnologyModal() {
 					setItem={setSelectedItem}
 					itemNumber={3}
 					description="Modern Search Experience"
-					image={search}
+					image={TESearch}
 				>
 					Search Strategy
 				</MainButton>
@@ -87,7 +91,7 @@ export default function TechnologyModal() {
 					setItem={setSelectedItem}
 					itemNumber={4}
 					description="Policy Based Rules"
-					image={governance}
+					image={TEGovernance}
 				>
 					Governance
 				</MainButton>
@@ -109,7 +113,7 @@ export default function TechnologyModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={M365} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4> M365 Readiness</h4>
@@ -130,7 +134,7 @@ export default function TechnologyModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={contentmanagement} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Content Management & Migrations</h4>
@@ -155,7 +159,7 @@ export default function TechnologyModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={LOB} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>LOB Application Integration</h4>
@@ -176,7 +180,7 @@ export default function TechnologyModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={searchStrategy} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Search Strategy</h4>
@@ -198,7 +202,7 @@ export default function TechnologyModal() {
 					<div>
 						<div className="col-wrapper">
 							<div className="col">
-								<img src={Intranet} alt="Intranet" />{" "}
+								<img src={MGovernance} alt="Intranet" />{" "}
 							</div>
 							<div className="col">
 								<h4>Governance</h4>
