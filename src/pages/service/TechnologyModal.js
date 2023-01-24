@@ -13,7 +13,7 @@ import MGovernance from "../../images/MGovernance.png";
 import contentmanagement from "../../images/content management.png";
 import M365 from "../../images/M365.png";
 import LOB from "../../images/LOB.png";
-import searchStrategy from "../../images/search_Strategy.png";
+import searchStrategy from "../../images/Search_Strategy.png";
 import governance from "../../images/governance.png";
 import Intranet from "../../images/intranet.png";
 import TEGovernance from "../../images/TEGovernance.png";

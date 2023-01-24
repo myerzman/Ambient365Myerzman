@@ -93,14 +93,14 @@ module.exports = {
 					//Prefixes all WP Types with "Wp" so "Post and allPost" become "WpPost and allWpPost".
 					typePrefix: `Wp`,
 				},
-				restApiRoutePrefix: "wp-json",
+				// restApiRoutePrefix: "wp-json",
 
 				develop: {
 					//caches media files outside of Gatsby's default cache an thus allows them to persist through a cache reset.
 					hardCacheMediaFiles: true,
 				},
-				useACF: true,
-				acfOptionPageIds: [],
+				// useACF: true,
+				// acfOptionPageIds: [],
 				// verboseOutput: false,
 				type: {
 					Post: {
