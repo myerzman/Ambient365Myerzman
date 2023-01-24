@@ -9,7 +9,7 @@ import MainButton from "../../components/mainbutton";
 import Intranet from "../../images/intranet.png";
 import Logo from "../../images/ambient-logo-trans.png";
 import modernintranet from "../../images/modernintranet.png";
-import memployeeexperience from "../../images/EmployeeExperience.png";
+import memployeeexperience from "../../images/Employee_Experience.png";
 import Collab from "../../images/Portal&Collaboration.png";
 import frontline from "../../images/Mobilitytoworkers.png";
 import Close from "../../images/close.png";
