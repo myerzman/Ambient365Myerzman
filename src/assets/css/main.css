@@ -545,6 +545,47 @@ form > *:last-child {
 		background: #0682b7f0;
 		text-align: center;
 	}
+	.container-center iframe{
+		height: 800px !important;
+	}
+}
+
+@media (max-width: 767px){
+	.page-footer .columns{
+		display: block;
+	}
+	body .page-footer{
+		height: 45em;
+	}
+	body #content-wrap{
+		padding-bottom: 45em;
+	}
+	body .page-footer p, body .page-footer h3{
+		text-align: center;
+	}
+	.page-footer .footerlogo{
+		margin: 0 auto;
+		width: auto;
+	}
+	.icon-wrapper{
+		flex-wrap: wrap;
+	}
+	#home-container .carousel-root h1{
+margin-top: 0px;
+	}
+	.carousel .slider-wrapper.axis-horizontal .slider{
+		padding-bottom: 45px;
+	}
+	
+}
+
+@media (max-width: 380px){
+	.carousel .slider-wrapper.axis-horizontal .slider{
+		padding-bottom: 70px;
+	}
+	.carousel .slider-wrapper{
+		background: #000;
+	}
 }
 
 .nav-btn svg {
@@ -909,6 +950,8 @@ body .contact-link a:hover {
 		font-size: 4rem;
 		margin-bottom: 0;
 	}
+
+
 }
 
 /*#########*/
