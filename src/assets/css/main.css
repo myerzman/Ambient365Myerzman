@@ -590,7 +590,13 @@ margin-top: 0px;
 
 @media (max-width: 449px){
 	body .content-container .home-background-image {
-		top: 169px;
+		top: 189px;
+	}
+	.carousel .slider-wrapper{
+		background: #000;
+	}
+	.control-dots{
+		display: none;
 	}
 }
 
