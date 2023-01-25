@@ -592,10 +592,10 @@ margin-top: 0px;
 	body .content-container .home-background-image {
 		top: 189px;
 	}
-	.carousel .slider-wrapper{
+	#home-container .carousel .slider-wrapper{
 		background: #000;
 	}
-	.control-dots{
+	#home-container .control-dots{
 		display: none;
 	}
 }
@@ -605,10 +605,10 @@ margin-top: 0px;
 	body .content-container .home-background-image {
 		top: 196px;
 	}
-	.carousel .slider-wrapper.axis-horizontal .slider{
+	#home-container .carousel .slider-wrapper.axis-horizontal .slider{
 		padding-bottom: 70px;
 	}
-	.carousel .slider-wrapper{
+	#home-container .carousel .slider-wrapper{
 		background: #000;
 	}
 }
