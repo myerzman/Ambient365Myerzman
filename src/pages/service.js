@@ -71,7 +71,7 @@ export default function service() {
 				{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
 
 				<br />
-				<Link to="https://meetings.hubspot.com/drotolo">
+				<Link to="/contact">
 					<ScheduleButton> Schedule a Meeting </ScheduleButton>
 				</Link>
 			</div>

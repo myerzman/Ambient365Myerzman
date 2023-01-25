@@ -87,6 +87,20 @@ body {
 	}
 	.background-image {
 		height: 600px;
+
+
+	}
+	body #home-container .carousel .control-dots{
+		bottom: 10px !important;
+	}
+	body .home-background-image{
+		top: 246px;
+	}
+	.home-background-image h1{
+		display: none;
+	}
+	.background-image h1{
+		display: none;
 	}
 }
 

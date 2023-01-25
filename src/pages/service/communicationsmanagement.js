@@ -57,7 +57,7 @@ const communicationsmanagement = () => {
 			</ModalProvider>
 
 
-			<h1>AmbientCARES: <br /> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h1>
+<h1>AmbientCARES: <br /> <h2 className="lowerHeading"> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h2></h1>
 
 			<div className="icon-wrapper">
 				<div className="reacticon">
@@ -106,11 +106,6 @@ const communicationsmanagement = () => {
 					<span className="caption">Servant-hearted</span>
 				</div>
 			</div>
-
-			<h2 className="lowerHeading"> Meet Our Ambient Consultants! </h2>
-			<Link to="https://meetings.hubspot.com/drotolo">
-				<ScheduleButton> Schedule a Meeting </ScheduleButton>
-			</Link>
 
 			<Container>
 				<h4> Schedule a Demo </h4>
