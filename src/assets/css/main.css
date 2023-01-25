@@ -577,9 +577,28 @@ margin-top: 0px;
 		padding-bottom: 45px;
 	}
 	
+	#home-container h2{
+		margin-bottom: 0px;
+	}
+}
+
+@media (max-width: 650px){
+	body .content-container .home-background-image {
+		top: 169px;
+	}
+}
+
+@media (max-width: 449px){
+	body .content-container .home-background-image {
+		top: 169px;
+	}
 }
 
 @media (max-width: 380px){
+
+	body .content-container .home-background-image {
+		top: 196px;
+	}
 	.carousel .slider-wrapper.axis-horizontal .slider{
 		padding-bottom: 70px;
 	}
