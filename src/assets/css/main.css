@@ -792,6 +792,18 @@ body .contact-link a:hover {
 	height: auto;
 }
 
+.footerlogo .logo{
+	margin-bottom: 0px;
+}
+
+.footerlogo + .footerlogo .logo{
+	margin-bottom: 0px;
+	margin-left: -24px;
+	width: 161px;
+
+}
+
+
 /*#########*/
 /* Error */
 /*#########*/
