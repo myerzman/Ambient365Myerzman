@@ -46,7 +46,7 @@ export default function HomeCarousel() {
 				</div>  */}
 			 <div>
 						<div className="slider-content">
-						<h1>Commuication Management</h1>
+						<h1>Communication Management</h1>
 						<p>
 						At Ambient365 we understand the driving force of any
 						business is its people. Our mentoring and best practices
