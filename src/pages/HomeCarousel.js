@@ -29,7 +29,7 @@ export default function HomeCarousel() {
 				interval={6000}
 			>
 				{/* <div> */}
-					{/* <div className="slider-content">
+				{/* <div className="slider-content">
 						<h1>Welcome to Ambient365</h1>
 						<p>
 							Ambient365 is a Microsoft Practice primary focus.
@@ -43,45 +43,38 @@ export default function HomeCarousel() {
 					</div>
 					<div className="darkness"></div>
 					<img src={Hero2} alt="OurStory" />
-				</div>  */}
-			 <div>
-						<div className="slider-content">
+				</div> / */}
+				<div>
+					<div className="slider-content">
 						<h1>Communication Management</h1>
 						<p>
-						At Ambient365 we understand the driving force of any
-						business is its people. Our mentoring and best practices
-						approach to people, process, and technology allows an
-						organization to see their investment in a digital
-						platform that helps organizations create a thriving
-						culture within an employee experience platform.{" "}
+							At Ambient365 we understand the driving force of any business is its people. Our mentoring
+							and best practices approach to people, process, and technology allows an organization to see
+							their investment in a digital platform that helps organizations create a thriving culture
+							within an employee experience platform.{" "}
 						</p>
-						</div>
+					</div>
 					<div className="darkness"></div>
 					<img src={Hero2} alt="CommuicationManagement" />
-				</div> 
+				</div>
 
-			 <div>
-						<div className="slider-content">
+				<div>
+					<div className="slider-content">
 						<h1>Power Platform</h1>
 						<p>
-							Microsoft Power Platform is a line of business
-							intelligence, app development, and app connectivity
-							software applications. Microsoft Power Platform
-							benefits for your organization include all
-							Enterprise Business Processes in a Single Platform.
-							Self-Service for easy adoption and use, streamlines
-							processes and improves productivity, facilitates
-							remote work and Collaboration.
+							Microsoft Power Platform is a line of business intelligence, app development, and app
+							connectivity software applications. Microsoft Power Platform benefits for your organization
+							include all Enterprise Business Processes in a Single Platform. Self-Service for easy
+							adoption and use, streamlines processes and improves productivity, facilitates remote work
+							and Collaboration.
 						</p>
-						</div>
+					</div>
 					<div className="darkness"></div>
 					<img src={Hero8} alt="OurService" />
-				</div> 
+				</div>
 				{/* <div>
 					<img src={Intranet} alt="Intranet" />{" "}
 				</div> */}
-				
-				
 			</Carousel>
 		</>
 	);
