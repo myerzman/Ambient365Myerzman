@@ -1,7 +1,6 @@
 body {
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-		sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+		"Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .content-container {
@@ -70,6 +69,7 @@ body {
 }
 
 @media (max-width: 1600px) {
+	/* image*/
 	.background-image {
 		background-position: 0px 0px;
 	}
@@ -87,19 +87,17 @@ body {
 	}
 	.background-image {
 		height: 600px;
-
-
 	}
-	body #home-container .carousel .control-dots{
+	body #home-container .carousel .control-dots {
 		bottom: 10px !important;
 	}
-	body .home-background-image{
+	body .home-background-image {
 		top: 246px;
 	}
-	.home-background-image h1{
+	.home-background-image h1 {
 		display: none;
 	}
-	.background-image h1{
+	.background-image h1 {
 		display: none;
 	}
 }
@@ -358,11 +356,7 @@ h2.lowerHeading {
 }
 
 .white .multiParagraph {
-	background: linear-gradient(
-		to bottom,
-		var(--primary-blue) 0%,
-		#0682b78d 100%
-	);
+	background: linear-gradient(to bottom, var(--primary-blue) 0%, #0682b78d 100%);
 	background: #0682b78d;
 	background: #2121218d;
 	border-radius: 15px;
@@ -383,21 +377,13 @@ h2.lowerHeading {
 	/* background: #00000021; */
 	border-radius: 10px;
 	text-align: left;
-	background: linear-gradient(
-		to bottom,
-		var(--primary-blue) 0%,
-		transparent 100%
-	);
+	background: linear-gradient(to bottom, var(--primary-blue) 0%, transparent 100%);
 }
 
 @media (max-width: 1100px) {
 	.white p {
 		background: #00000094;
-		background: linear-gradient(
-			to bottom,
-			var(--primary-blue) 0%,
-			#0682b7 100%
-		);
+		background: linear-gradient(to bottom, var(--primary-blue) 0%, #0682b7 100%);
 	}
 }
 
@@ -482,16 +468,16 @@ h2.lowerHeading {
 	text-align: justify;
 }
 
-.person .info p{
+.person .info p {
 	max-width: none;
 }
 
-.person .image{
-padding: 20px;
+.person .image {
+	padding: 20px;
 }
 
 .person .image img {
-	width: 200px
+	width: 200px;
 }
 
 .alignLeft {
