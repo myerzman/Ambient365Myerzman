@@ -44,11 +44,7 @@ const event = ({ data }) => {
 				<div className="events">
 					{" "}
 					{data.allWpPost.edges
-						.filter(
-							(post) =>
-								post.node.categories.nodes[0].name === "Webinar" ||
-								post.node.categories.nodes[1].name === "Webinar"
-						)
+						.filter((post) => post.node.categories.nodes[0].name === "Webinar")
 						.reverse()
 						.map(({ node }) => {
 							return (
