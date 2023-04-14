@@ -11,7 +11,7 @@ import { ScheduleButton } from "../components/schedulebutton";
 import ServiceButton from "../components/servicebutton";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import { GatsbySeo } from 'gatsby-plugin-next-seo';
+import { GatsbySeo } from "gatsby-plugin-next-seo";
 
 // import HomeCarousel from "./HomeCarousel";
 import HomeLayout from "../components/HomeLayout";
@@ -26,18 +26,19 @@ import responsible from "../images/responsible.png";
 import committed from "../images/committed.png";
 import aspirational from "../images/aspirational.png";
 
-
 const IndexPage = () => {
+	// build 2
 	return (
 		<HomeLayout>
 			<GatsbySeo
-      openGraph={{
-        type: 'website',
-        url: 'https://www.ambient365.us/',
-        title: 'Enterprise Cloud Solutions powered by the Microsoft Cloud | Ambient365',
-        description: 'Elevate your business performance with our professional Microsoft365 services. With a decade of industry expertise, our team of experts offer tailored solutions for business process management, technology enablement, and more. Schedule a consultation to discuss your specific needs',
-	  }}
-    />
+				openGraph={{
+					type: "website",
+					url: "https://www.ambient365.us/",
+					title: "Enterprise Cloud Solutions powered by the Microsoft Cloud | Ambient365",
+					description:
+						"Elevate your business performance with our professional Microsoft365 services. With a decade of industry expertise, our team of experts offer tailored solutions for business process management, technology enablement, and more. Schedule a consultation to discuss your specific needs",
+				}}
+			/>
 			<div className="left-aligned">
 				{/* <h1>Next Gen Microsoft365 by Ambient 365!</h1>
 				<h2> Inspire, Involve, Innovate & Iterate with Integrity </h2>
@@ -45,35 +46,56 @@ const IndexPage = () => {
 					<ScheduleButton>Meet Our Consultants</ScheduleButton>
 				</Link> */}
 			</div>
-	
+
 			<div className="box" />
 			<h2>About Us</h2>
-				<div className="events">
-				<p>Ambient365 is our Microsoft Cloud Solutions Practice Area. Established in 2012, Ambient Studios is a technology professional services firm that was founded with the desire to nurture engagements that are client-focused, innovative, and honest.</p>
-				<p>Focused on the customer journey, Ambient365 inspires the customer/employee experience while streamlining business processes, providing time to value. We leverage Microsoft Cloud Services to deliver innovative technology solutions, transformative workplace automations, and genuine client-focused managed services to drive business productivity and efficiency.</p>
-				<p>At Ambient365, we understand the driving force of any business is its people. Our mentoring and best practices approach to people, process, and technology allows an organization to see their investment in a digital platform that helps organizations create a thriving culture within an employee experience platform. This version of the truth and system of record allows a centralized repository of good data and content that impacts profits and extends to employee engagement.</p>
+			<div className="events">
+				<p>
+					Ambient365 is our Microsoft Cloud Solutions Practice Area. Established in 2012, Ambient Studios is a
+					technology professional services firm that was founded with the desire to nurture engagements that
+					are client-focused, innovative, and honest.
+				</p>
+				<p>
+					Focused on the customer journey, Ambient365 inspires the customer/employee experience while
+					streamlining business processes, providing time to value. We leverage Microsoft Cloud Services to
+					deliver innovative technology solutions, transformative workplace automations, and genuine
+					client-focused managed services to drive business productivity and efficiency.
+				</p>
+				<p>
+					At Ambient365, we understand the driving force of any business is its people. Our mentoring and best
+					practices approach to people, process, and technology allows an organization to see their investment
+					in a digital platform that helps organizations create a thriving culture within an employee
+					experience platform. This version of the truth and system of record allows a centralized repository
+					of good data and content that impacts profits and extends to employee engagement.
+				</p>
 			</div>
-<h1>AmbientCARES: <br /> <h2 className="lowerHeading"> Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements</h2></h1>
+			<h1>
+				AmbientCARES: <br />{" "}
+				<h2 className="lowerHeading">
+					{" "}
+					Our Core Values Are the Heartbeat That Drives Our Culture And Our Engagements
+				</h2>
+			</h1>
 			<div className="icon-wrapper">
-				<div className="reacticon"> 
-				<img src={committed} alt="Committed" width={70} height={70}/> 
-				<span className="caption">Committed</span>
+				<div className="reacticon">
+					<img src={committed} alt="Committed" width={70} height={70} />
+					<span className="caption">Committed</span>
 				</div>
-				<div className="reacticon"> 
-				<img src={aspirational} alt="Aspirational" width={70} height={70}/> 
-				<span className="caption">Aspirational</span>
+				<div className="reacticon">
+					<img src={aspirational} alt="Aspirational" width={70} height={70} />
+					<span className="caption">Aspirational</span>
 				</div>
-				<div className="reacticon"> 
-				<img src={responsible} alt="Responsible" width={70} height={70}/> 
-				<span className="caption">Responsible</span>
+				<div className="reacticon">
+					<img src={responsible} alt="Responsible" width={70} height={70} />
+					<span className="caption">Responsible</span>
 				</div>
-				<div className="reacticon"> 
-				<img src={CoreEmpower} alt="empowering" width={70} height={70}/> 
-				<span className="caption">Empowering</span>
+				<div className="reacticon">
+					<img src={CoreEmpower} alt="empowering" width={70} height={70} />
+					<span className="caption">Empowering</span>
 				</div>
-				<div className="reacticon"> 
-				<img src={servanthearted} alt="Servant-hearted" width={70} height={70}/> 
-				<span className="caption">Servant-hearted</span>
+				<div className="reacticon">
+					<img src={servanthearted} alt="Servant-hearted" width={70} height={70} />
+					<span className="caption">Servant-hearted</span>
 				</div>
 			</div>
 			<div className="box" />
@@ -129,7 +151,7 @@ const IndexPage = () => {
 							</ServiceButton>
 						</Link>
 					</div> */}
-				{/* </div>
+			{/* </div>
 				<hr />
 				<div className="item-wrapper">
 					<h2 className="lowerHeading">
@@ -143,20 +165,17 @@ const IndexPage = () => {
 					</Link>
 				</div> */}
 
-				{/* <Images /> */}
+			{/* <Images /> */}
 			{/* </ModalProvider> */}
 			<div className="item-wrapper">
 				<hr />
-			<h2 className="lowerHeading">
-						{" "}
-						Meet Our Ambient Consultants!{" "}
-					</h2>
+				<h2 className="lowerHeading"> Meet Our Ambient Consultants! </h2>
 
-					<br />
-					<Link to="/contact">
-						<ScheduleButton> Schedule a Meeting </ScheduleButton>
-					</Link>
-					</div>
+				<br />
+				<Link to="/contact">
+					<ScheduleButton> Schedule a Meeting </ScheduleButton>
+				</Link>
+			</div>
 		</HomeLayout>
 	);
 };
