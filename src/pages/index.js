@@ -27,7 +27,7 @@ import committed from "../images/committed.png";
 import aspirational from "../images/aspirational.png";
 
 const IndexPage = () => {
-	// build 2
+	// build 3
 	return (
 		<HomeLayout>
 			<GatsbySeo
