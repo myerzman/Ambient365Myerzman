@@ -8,7 +8,7 @@ export default ({ data }) => {
 	return (
 		<Layout>
 			<Link className="returnLink" to="/event">
-				Back 
+				Back
 			</Link>
 
 			<div className="events">
@@ -17,6 +17,9 @@ export default ({ data }) => {
 
 				<p> On: {post.date} </p>
 			</div>
+			{post.featuredImage && (
+				<img src={post.featuredImage.node.sourceUrl} alt={post.featuredImage.node.altText} />
+			)}
 			<Link className="returnLink bottom" to="/event">
 				Back
 			</Link>
@@ -33,6 +36,12 @@ export const query = graphql`
 					content
 					slug
 					date(formatString: "MM-DD-YYYY")
+					featuredImage {
+						node {
+							altText
+							sourceUrl
+						}
+					}
 				}
 			}
 		}
