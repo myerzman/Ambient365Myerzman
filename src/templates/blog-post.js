@@ -1,12 +1,24 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { graphql, Link } from "gatsby";
+import { Helmet } from "react-helmet";
 
 export default ({ data }) => {
 	const post = data.allWpPost.edges[0].node;
 	console.log(post);
 	return (
 		<Layout>
+			<Helmet>
+				<html lang="en" />
+
+				{post.featuredImage && (
+					<meta
+						property="og:image"
+						content={post.featuredImage.node.sourceUrl}
+						class="yoast-seo-meta-tag"
+					></meta>
+				)}
+			</Helmet>
 			<Link className="returnLink" to="/event">
 				Back
 			</Link>
