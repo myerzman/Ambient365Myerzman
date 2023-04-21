@@ -20,7 +20,7 @@ export default ({ data }) => {
 					content="https://www.ambient365.us/internal-communications-getting-the-most-out-of-current-m365-investments-communications-for-hr-retention-intranet-refresh/"
 					class="yoast-seo-meta-tag"
 				></meta>
-				<title>Webinar Tues, May 9th | Ambient365</title>
+				<title>{`${post.title} | Ambient365`}</title>
 				<meta property="og:site_name" content="Ambient Studios" class="yoast-seo-meta-tag" />
 				<meta name="title" property="og:title" content={`${post.title} | Ambient365`}></meta>
 				<meta
