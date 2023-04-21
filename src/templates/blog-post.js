@@ -10,12 +10,23 @@ export default ({ data }) => {
 	return (
 		<Layout>
 			<Helmet>
-				<meta property="og:image" content={banner} />
-				<meta property="og:image:width" content="1200" />
-				<meta property="og:image:height" content="630" />
+				<meta charset="UTF-8" />
+				<meta property="og:image" content={banner} class="yoast-seo-meta-tag" />
+				<meta property="og:image:width" content="1024" class="yoast-seo-meta-tag" />
+				<meta property="og:image:height" content="536" class="yoast-seo-meta-tag" />
+				<meta property="og:image:type" content="image/png" class="yoast-seo-meta-tag"></meta>
+				<meta
+					property="og:url"
+					content="https://www.ambient365.us/internal-communications-getting-the-most-out-of-current-m365-investments-communications-for-hr-retention-intranet-refresh/"
+					class="yoast-seo-meta-tag"
+				></meta>
 				<title>Webinar Tues, May 9th | Ambient365</title>
-
+				<meta property="og:site_name" content="Ambient Studios" class="yoast-seo-meta-tag" />
 				<meta name="title" property="og:title" content={`${post.title} | Ambient365`}></meta>
+				<meta
+					name="msapplication-TileImage"
+					content="https://www.ambientstudios.com/wp-content/uploads/cropped-logo-ambient-studios-transparent-512x512-270x270.png"
+				></meta>
 			</Helmet>
 			<Link className="returnLink" to="/event">
 				Back
