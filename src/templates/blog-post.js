@@ -10,14 +10,20 @@ export default ({ data }) => {
 		<Layout>
 			<Helmet>
 				<html lang="en" />
+				<title>{post.title} | Ambient365</title>
 
 				{post.featuredImage && (
-					<meta
-						property="og:image"
-						content={post.featuredImage.node.sourceUrl}
-						class="yoast-seo-meta-tag"
-					></meta>
+					<>
+						<meta
+							property="og:image"
+							content={post.featuredImage.node.sourceUrl}
+							class="yoast-seo-meta-tag"
+							name="image"
+						></meta>
+						<meta property="og:image" content={post.featuredImage.node.sourceUrl} name="image"></meta>
+					</>
 				)}
+				<meta name="title" property="og:title" content={`${post.title} | Ambient365`}></meta>
 			</Helmet>
 			<Link className="returnLink" to="/event">
 				Back
