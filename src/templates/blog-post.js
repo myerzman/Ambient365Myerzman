@@ -13,7 +13,7 @@ export default ({ data }) => {
 				<meta property="og:image" content={banner} />
 				<meta property="og:image:width" content="1200" />
 				<meta property="og:image:height" content="630" />
-				<title>"Webina"| Ambient365</title>
+				<title>Webinar Tues, May 9th | Ambient365</title>
 
 				<meta name="title" property="og:title" content={`${post.title} | Ambient365`}></meta>
 			</Helmet>
