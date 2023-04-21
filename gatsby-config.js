@@ -1,58 +1,57 @@
-
-
 module.exports = {
 	siteMetadata: {
 		siteUrl: `https://www.ambient365.us`,
 	},
 	plugins: [
+		`gatsby-plugin-react-helmet`,
 		{
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        icon: 'src/images/favicon-32x32.png',
-      },
-    },
+			resolve: "gatsby-plugin-manifest",
+			options: {
+				icon: "src/images/favicon-32x32.png",
+			},
+		},
 		{
-      resolve: 'gatsby-plugin-next-seo',
-      options: {
-        openGraph: {
-          type: 'website',
-          locale: 'en_IE',
-          url: 'https://www.ambient365.us',
-          site_name: 'Ambient365',
-        },
-      },
-    },
+			resolve: "gatsby-plugin-next-seo",
+			options: {
+				openGraph: {
+					type: "website",
+					locale: "en_IE",
+					url: "https://www.ambient365.us",
+					site_name: "Ambient365",
+				},
+			},
+		},
 		{
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "G-R8PJWKKHM8", // Google Analytics / GA
-          // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
-          // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
-        ],
-        // This object gets passed directly to the gtag config command
-        // This config will be shared across all trackingIds
-        gtagConfig: {
-          // optimize_id: "OPT_CONTAINER_ID",
-          anonymize_ip: true,
-          cookie_expires: 0,
-        },
-        // This object is used for configuration specific to this plugin
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: false,
-          // Setting this parameter is also optional
-          respectDNT: true,
-          // Avoids sending pageview hits from custom paths
-          // exclude: ["/preview/**", "/do-not-track/me/too/"],
-          // Defaults to https://www.googletagmanager.com
-          // origin: "YOUR_SELF_HOSTED_ORIGIN",
-          // Delays processing pageview events on route update (in milliseconds)
-          delayOnRouteUpdate: 0,
-        },
-      },
-    },
+			resolve: `gatsby-plugin-google-gtag`,
+			options: {
+				// You can add multiple tracking ids and a pageview event will be fired for all of them.
+				trackingIds: [
+					"G-R8PJWKKHM8", // Google Analytics / GA
+					// "AW-CONVERSION_ID", // Google Ads / Adwords / AW
+					// "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+				],
+				// This object gets passed directly to the gtag config command
+				// This config will be shared across all trackingIds
+				gtagConfig: {
+					// optimize_id: "OPT_CONTAINER_ID",
+					anonymize_ip: true,
+					cookie_expires: 0,
+				},
+				// This object is used for configuration specific to this plugin
+				pluginConfig: {
+					// Puts tracking script in the head instead of the body
+					head: false,
+					// Setting this parameter is also optional
+					respectDNT: true,
+					// Avoids sending pageview hits from custom paths
+					// exclude: ["/preview/**", "/do-not-track/me/too/"],
+					// Defaults to https://www.googletagmanager.com
+					// origin: "YOUR_SELF_HOSTED_ORIGIN",
+					// Delays processing pageview events on route update (in milliseconds)
+					delayOnRouteUpdate: 0,
+				},
+			},
+		},
 		{
 			resolve: `gatsby-plugin-styled-components`,
 			options: {
@@ -86,8 +85,7 @@ module.exports = {
 			options: {
 				url:
 					// allows a fallback url if WPGRAPHQL_URL is not set in the env, this may be a local or remote WP instance.
-					process.env.WPGRAPHQL_URL ||
-					`https://www.ambientstudios.com/graphql`,
+					process.env.WPGRAPHQL_URL || `https://www.ambientstudios.com/graphql`,
 
 				schema: {
 					//Prefixes all WP Types with "Wp" so "Post and allPost" become "WpPost and allWpPost".
@@ -118,10 +116,7 @@ module.exports = {
 			resolve: `gatsby-omni-font-loader`,
 			options: {
 				enableListener: true,
-				preconnect: [
-					`https://fonts.googleapis.com`,
-					`https://fonts.gstatic.com`,
-				],
+				preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
 				web: [
 					{
 						name: `Montserrat`,
