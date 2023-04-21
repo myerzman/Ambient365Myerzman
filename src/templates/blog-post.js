@@ -11,7 +11,9 @@ export default ({ data }) => {
 		<Layout>
 			<Helmet>
 				<meta property="og:image" content={banner} />
-				<title>{post.title} | Ambient365</title>
+				<meta property="og:image:width" content="1200" />
+				<meta property="og:image:height" content="630" />
+				<title>"Webina"| Ambient365</title>
 
 				<meta name="title" property="og:title" content={`${post.title} | Ambient365`}></meta>
 			</Helmet>
