@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import { graphql, Link } from "gatsby";
 import { Helmet } from "react-helmet";
+import banner from "../images/Copy-of-Ambient-365-December-Webinar-1.png";
 
 export default ({ data }) => {
 	const post = data.allWpPost.edges[0].node;
@@ -9,14 +10,7 @@ export default ({ data }) => {
 	return (
 		<Layout>
 			<Helmet>
-				{post.featuredImage && (
-					<>
-						<meta property="og:image" content={post.featuredImage.node.sourceUrl} name="image"></meta>
-						<meta property="og:image:type" content="image/png" class="yoast-seo-meta-tag"></meta>
-						<meta property="og:image:width" content="1024" class="yoast-seo-meta-tag"></meta>
-						<meta property="og:image:height" content="536" class="yoast-seo-meta-tag"></meta>
-					</>
-				)}
+				<meta property="og:image" content={banner} />
 				<title>{post.title} | Ambient365</title>
 
 				<meta name="title" property="og:title" content={`${post.title} | Ambient365`}></meta>
